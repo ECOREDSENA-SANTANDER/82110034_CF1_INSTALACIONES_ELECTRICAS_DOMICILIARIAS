@@ -7,6 +7,8 @@
           span 1
         h1 Fundamentos esenciales de electricidad
         
+      
+
 
   </template>
 

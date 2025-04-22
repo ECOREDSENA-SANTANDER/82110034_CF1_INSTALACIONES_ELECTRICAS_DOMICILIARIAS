@@ -21,9 +21,9 @@
     .row.justify-content-center.mb-4
       .col-lg-9(data-aos="fade-right")
         .row.justify-content-center
-          .col-lg-8.bg1
+          .col-lg-8.col-md-7.bg1
             img(src='@/assets/curso/temas/t2/2.png', alt='')
-          .col-lg-4.bg2
+          .col-lg-4.col-md-7.bg2
             ul.lista-ul--color.sec2.px-4.px-lg-5.py-3.mb-0
               li
                 i.fas.fa-circle-check
@@ -49,7 +49,7 @@
               li.mb-0
                 i.fas.fa-circle-check
                 | Julios (J)
-      .col-lg-3(data-aos="fade-left")
+      .col-lg-3.d-none.d-lg-block(data-aos="fade-left")
         img(src='@/assets/curso/temas/t2/3.jpg', alt='')
     
     p.text-center A continuación, se describen brevemente algunas de las unidades básicas más utilizadas en los circuitos eléctricos:
@@ -57,19 +57,19 @@
     h4.text-center Unidades básicas de medida en un circuito
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
-      .col-lg-4.mb-3
+      .col-lg-4.col-md-6.mb-3
         .tarjeta.tarj-hover.text-center.p-4.h-100
-          img.mb-4(src='@/assets/curso/temas/t2/tarj2.svg', alt='')
+          img.mb-0(src='@/assets/curso/temas/t2/tarj1.png', alt='')
           h4.tit.mb-3.py-1.pb-0.px-4 Resistencia
           p.mb-0 Es la oposición que presenta un material al paso de la corriente eléctrica. Se mide en ohmios (Ω). Un resistor es el componente que se encarga de ofrecer esta resistencia dentro de un circuito.  
-      .col-lg-4.mb-3
+      .col-lg-4.col-md-6.mb-3
         .tarjeta.tarj-hover.text-center.p-4.h-100
-          img.mb-4(src='@/assets/curso/temas/t2/tarj2.svg', alt='')
+          img.mb-0(src='@/assets/curso/temas/t2/tarj2.png', alt='')
           h4.tit.mb-3.py-1.pb-0.px-4 Corriente
           p.mb-0 Representa el flujo de electrones a través de un conductor o material. Su unidad de medida es el amperio (A), y es una de las principales variables en cualquier análisis eléctrico. 
-      .col-lg-4.mb-3
+      .col-lg-4.col-md-6.mb-3
         .tarjeta.tarj-hover.text-center.p-4.h-100
-          img.mb-4(src='@/assets/curso/temas/t2/tarj2.svg', alt='')
+          img.mb-0(src='@/assets/curso/temas/t2/tarj3.png', alt='')
           h4.tit.mb-3.py-1.pb-0.px-4 Voltaje
           p.mb-0 También conocido como tensión eléctrica, es la diferencia de potencial eléctrico entre dos puntos de un circuito. Es la fuerza que impulsa a los electrones a moverse, generando corriente. Se mide en voltios (V).
 
