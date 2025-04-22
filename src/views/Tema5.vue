@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 5
-      h1 Tema 5
+      h1 Estudio de los divisores de tensión y corriente y del comportamiento dinámico de condensadores e inductores en circuitos eléctricos
 
 
 </template>
