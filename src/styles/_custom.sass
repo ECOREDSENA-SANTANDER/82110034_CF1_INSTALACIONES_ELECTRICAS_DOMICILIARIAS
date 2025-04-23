@@ -22,7 +22,7 @@
   color: white !important   
 .banner-interno__titulo__icono i
   color: $color-primario
-figcaption
+figcaption, table caption
   font-weight: normal
  
 
@@ -52,6 +52,8 @@ figcaption
   width: fit-content
 .columns-2
   columns: 2
+.t-color-sec 
+  color: $color-secundario !important
 
 .banner-principal
   @media (max-width: $bp-max-md)
@@ -95,6 +97,19 @@ figcaption
   @media screen and (max-width: 767px)
     margin-inline: -1.4rem  
     background-size: cover 
+.bgc-3
+  background-image: url('../assets/curso/temas/t5/bgc.png')
+  background-position: center
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
+
 
 .bg-trans
   background-color: transparent  
@@ -108,18 +123,40 @@ figcaption
   background-color:#E0E0FC
 .bg5
   background-color: #E8F8F6
+.bg6
+  background-color: #122353
+.bg7
+  background-color: #A5B0D0
+.bg8
+  background-color: #FEF5D0
+.bg9
+  background-color: #F6F6F6
 .bg-grad1
   background: #F8F8FE
   background: linear-gradient(0deg,rgba(248, 248, 254, 1) 0%, rgba(254, 254, 255, 1) 100%)
+.bg-grad2
+  background: #122353
+  background: linear-gradient(90deg,#122353 40%, #E9ECF3 100%)
+.borde1
+  border: 1px solid #E1E1E1
+
 
 .lista-ul--color.sec2 li > i:first-of-type  
   color: #C8A311
 .lista-ul--color.tercer li > i:first-of-type  
   color: #6366F1
+.tipo-a.acordion__activo
+  background-color: #E9ECF3
+  border-bottom: 0px !important
+  border-radius: 24px
+.acordion__accion__btn--a
+  border: 1px solid #DC2626
+  background-color: #DC2626
+  color: #FFF
 .acordion__accion__btn--b
   border: 1px solid #DC2626
   color: #DC2626
-.acordion__activo
+.tipo-b.acordion__activo
   background-color: #FEFAE8
   border-bottom: 0px !important
   border-radius: 24px
@@ -130,8 +167,11 @@ figcaption
   &__header
     margin-bottom: 0px
   &__tab 
-    &--active span
-      font-weight: bold
+    background-color: #FAFAFA
+    &--active 
+      background-color: #FFF
+      span      
+        font-weight: bold
 
 .subt
   position: relative
@@ -177,7 +217,10 @@ figcaption
       color: $white
       transition: all 0.3s ease-out
 
-
+/* FORMULAS */
+.form-big
+  font-weight: bold
+  font-size: 30px
 .formula-container 
   font-size: 20px
 .fraction 
@@ -201,6 +244,39 @@ figcaption
   margin-left: 10px
 .r 
   font-style: italic
+/* form con parentesis */
+.page-wrapper 
+  display: flex
+  justify-content: center
+  align-items: center
+  margin: 0
+.equation-box 
+  padding: 20px
+  border-radius: 5px
+  font-size: 20px
+.division-part 
+  display: inline-block
+  position: relative
+  vertical-align: middle
+  text-align: center
+  font-size: 20px
+.top-section 
+  border-bottom: 2px solid #12263F
+  padding: 0 5px 2px 5px
+.bottom-section 
+  padding: 2px 5px 0 5px
+.current-i2, .current-it 
+  font-style: italic
+  margin-right: 10px
+.equation-symbol 
+  margin: 0 5px
+.resistance 
+  font-style: italic
+.parenthesis-left, .parenthesis-right 
+  font-size: 60px
+  margin-right: 5px
+  vertical-align: middle
+
 
 
     

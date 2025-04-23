@@ -29,7 +29,7 @@
 
           .row.justify-content-center.mb-5
             .col-lg-12
-              AcordionA.mb-5(tipo="b" clase-tarjeta="bg-trans")
+              AcordionA.mb-5(tipo="b" clase-tarjeta="bg-trans tipo-b")
                 .row(titulo="Refinación del petróleo")
                   .col-md-6.mb-3.mb-md-0
                     img(src='@/assets/curso/temas/t6/acord1.png', alt='')
