@@ -74,6 +74,8 @@
           p.mb-0 También conocido como tensión eléctrica, es la diferencia de potencial eléctrico entre dos puntos de un circuito. Es la fuerza que impulsa a los electrones a moverse, generando corriente. Se mide en voltios (V).
 
 
+
+
 </template>
 
 <script>

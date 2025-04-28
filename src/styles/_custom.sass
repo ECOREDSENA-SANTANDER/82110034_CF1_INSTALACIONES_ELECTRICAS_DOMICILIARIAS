@@ -54,6 +54,8 @@ figcaption, table caption
   columns: 2
 .t-color-sec 
   color: $color-secundario !important
+.font-italic
+  font-style: italic !important
 
 .banner-principal
   @media (max-width: $bp-max-md)
@@ -109,7 +111,18 @@ figcaption, table caption
   @media screen and (max-width: 767px)
     margin-inline: -1.4rem  
     background-size: cover 
-
+.bgc-4
+  background-image: url('../assets/curso/temas/t3/bgc.png')
+  background-position: center
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
 
 .bg-trans
   background-color: transparent  
@@ -276,7 +289,35 @@ figcaption, table caption
   font-size: 60px
   margin-right: 5px
   vertical-align: middle
-
-
-
+/* form suma resistencias paralelo */
+.outer-container 
+  display: flex
+  justify-content: center
+  align-items: center
+.math-expression 
+  font-size: 20px
+  display: flex
+  align-items: center      
+.ratio-block 
+  display: inline-block
+  position: relative
+  vertical-align: middle
+  text-align: center
+  margin: 0 5px
+.upper-element 
+  border-bottom: 2px solid #12263F
+  padding: 0 5px 2px 5px
+  text-align: center
+.lower-element 
+  padding: 2px 5px 0 5px
+  text-align: center
+.math-number 
+  font-weight: bold
+.math-operator 
+  margin: 0 5px
+  font-size: 24px
+.resistance-label 
+  font-style: italic
+  font-weight: bold
+        
     
