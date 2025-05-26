@@ -246,51 +246,41 @@
           br
           p.mb-0 Según el principio de conservación de la energía, el voltaje total de la fuente de alimentación (fuerza electromotriz) se distribuye entre los distintos elementos conectados en serie.
 
-      .row.justify-content-center.mb-4(data-aos="fade-down")
-        .col-lg-8.text-center
-          .tarjeta.bg4.p-4.px-lg-5
+      .row.justify-content-center.mb-4
+        .col-lg-4.d-none.d-lg-block(data-aos="fade-right")
+          img(src='@/assets/curso/temas/t1/9.png', alt='')
+        .col-lg-8.text-center(data-aos="fade-left")
+          .tarjeta.bg4.p-4.px-lg-5.mb-4
             h5 Es decir, la suma de los voltajes en cada resistencia es igual al voltaje total suministrado por la fuente:
             h5.mb-0 V total=V1+V2+V3+…+Vn
+          p.text-center Cada caída de voltaje en una resisteancia depende del valor de la resistencia y de la corriente, según la Ley de Ohm.
+          p.text-center La resistencia total de un circuito en serie se calcula sumando los valores individuales de cada resistencia:
+          .row.justify-content-center.mb-4
+            .col-lg-6.text-center
+              img(src='@/assets/curso/temas/t1/6.svg', alt='')
 
-      p.text-center Cada caída de voltaje en una resistencia depende del valor de la resistencia y de la corriente, según la Ley de Ohm.
+          .row.justify-content-center.mb-4
+            .col-lg-6.col-md-6.col-9.text-center
+              .tarjeta.bg4.p-4.px-lg-5
+                h5.mb-0 R total=R1+R2+R3+…+Rn
 
-      p.text-center La resistencia total de un circuito en serie se calcula sumando los valores individuales de cada resistencia:
-
-      .row.justify-content-center.mb-4(data-aos="fade-down")
-        .col-lg-6.text-center
-          img(src='@/assets/curso/temas/t1/6.svg', alt='')
-
-      .row.justify-content-center.mb-4(data-aos="fade-down")
-        .col-lg-4.col-md-6.col-9.text-center
-          .tarjeta.bg4.p-4.px-lg-5
-            h5.mb-0 R total=R1+R2+R3+…+Rn
-
-      p Esto quiere decir que, al aumentar el número de resistencias en serie, también aumenta la resistencia total del circuito.
-
-      p.mb-4 #[b Comportamiento de generadores en serie:] cuando se conectan generadores (fuentes de voltaje) en serie, se pueden sumar sus voltajes para obtener una mayor tensión total, siempre que tengan la misma polaridad.
-
-      .row.justify-content-center.mb-4(data-aos="fade-down")
-        .col-lg-7.col-md-11.text-center
-          .tarjeta.bg4.p-4.px-lg-5
+      .row.justify-content-center.mb-5
+        .col-lg-8(data-aos="fade-right")
+          p Esto quiere decir que, al aumentar el número de resistencias en serie, también aumenta la resistencia total del circuito.
+          p.mb-4 #[b Comportamiento de generadores en serie:] cuando se conectan generadores (fuentes de voltaje) en serie, se pueden sumar sus voltajes para obtener una mayor tensión total, siempre que tengan la misma polaridad.
+          .tarjeta.bg4.p-4.px-lg-5.mb-4.text-center
             h5 La fórmula general para el voltaje total de generadores en serie es:
             h5.mb-0 E total=E1+E2+E3+…+En
-
-      p Es importante tener en cuenta que, si las polaridades no coinciden, habrá una resta de voltajes según cómo estén conectadas.
-
-      .row.bgc-3.align-items-center.p-2.p-md-3.mb-5(data-aos="fade-down")
-        .col-lg-12.col-12.px-lg-4
-          .row.justify-content-center.align-items-center
-
-            .row.justify-content-center
-              .col-lg-12
-                .titulo-sexto.color-acento-contenido
-                  h5 Figura 1.
-                  span Circuito en serie
-              .col-lg-4.col-md-6
-                figure.mb-2
-                  img(src='@/assets/curso/temas/t1/fig1.svg', alt='La imagen representa un circuito eléctrico sencillo que incluye dos resistencias en serie (R1 y R2) y una fuente de corriente.')  
-                figcaption Fuente: Alexander & Sadiku, (2013)
+          p Es importante tener en cuenta que, si las polaridades no coinciden, habrá una resta de voltajes según cómo estén conectadas.
+        .col-lg-4.col-md-8(data-aos="fade-left")
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 1.
+            span Circuito en serie
+          figure.mb-2
+            img(src='@/assets/curso/temas/t1/fig1.svg', alt='La imagen representa un circuito eléctrico sencillo que incluye dos resistencias en serie (R1 y R2) y una fuente de corriente.')  
+          figcaption Fuente: Alexander & Sadiku, (2013)
       
+
       h4.mb-4 Circuito en paralelo
 
       .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-4(data-aos="fade-down")

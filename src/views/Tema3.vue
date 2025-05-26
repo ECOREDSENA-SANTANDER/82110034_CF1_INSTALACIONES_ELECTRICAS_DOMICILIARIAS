@@ -58,14 +58,14 @@
     .subt2.mb-4(data-aos="fade")
       h3.mb-0.py-1.px-4 a) Ley de corrientes de Kirchhoff (LCK) o Ley de nodos
 
-    p Establece que la suma de las corrientes que entran a un nodo (punto de conexión en un circuito) es igual a la suma de las corrientes que salen de él. Es decir, la corriente no se acumula en un nodo, lo cual refleja el principio de conservación de la carga eléctrica.
-
-    .row.justify-content-center.mb-4(data-aos="fade-down")
-      .col-lg-5.col-md-10.mb-3
-        .tarjeta.bg5.p-3.py-md-4.text-center
+    .row.justify-content-center.mb-5
+      .col-lg-5.col-md-6.mb-3.mb-lg-0(data-aos="fade-right")
+        img(src='@/assets/curso/temas/t3/2.png', alt='')
+      .col-lg-7(data-aos="fade-left")   
+        p Establece que la suma de las corrientes que entran a un nodo (punto de conexión en un circuito) es igual a la suma de las corrientes que salen de él. Es decir, la corriente no se acumula en un nodo, lo cual refleja el principio de conservación de la carga eléctrica.
+        .tarjeta.bg5.p-3.py-md-4.text-center.mb-4
           h3.mb-0 (Suma algebraica de I) Σ I = 0 (en la unión)
-
-    p.mb-5 Asumiendo que las corrientes que entran al nodo son positivas (+) y las que salen son negativas (−), la suma algebraica de las corrientes en un nodo siempre será cero.      
+        p.mb-5 Asumiendo que las corrientes que entran al nodo son positivas (+) y las que salen son negativas (−), la suma algebraica de las corrientes en un nodo siempre será cero.      
 
     
     .subt2.mb-4(data-aos="fade")
@@ -186,14 +186,16 @@
                 h3.mb-0.py-1.px-4 Ley de Joule - potencia calorífica
               p La corriente eléctrica puede producir calor o trabajo, dicho trabajo (W) será igual al producto de la carga (Q) por la diferencia de potencial (V) entre los dos puntos:  
 
-    .row.justify-content-center.mb-4(data-aos="fade-down")
-      .col-lg-5.col-md-8.col-11.mb-3
-        .tarjeta.bg4.p-4.text-center
+    .row.justify-content-center.mb-4
+      .col-lg-6.d-none.d-lg-block(data-aos="fade-right")
+        img(src='@/assets/curso/temas/t3/3.png', alt='')
+      .col-lg-5.col-md-8.col-11(data-aos="fade-left")
+        .tarjeta.bg4.p-4.text-center.h-100
           h5 W=VxQ
-          h5.mb-0 Por otro lado, sabemos que Q=Ixt
-          h5.mb-0 entonces: W=VxIxt
-          h5.mb-0 Por la ley de Ohm sabemos que V=RxI
-          h5.mb-0 entonces: W=(RxI)xIxt
+          h5 Por otro lado, sabemos que Q=Ixt
+          h5 entonces: W=VxIxt
+          h5 Por la ley de Ohm sabemos que V=RxI
+          h5 entonces: W=(RxI)xIxt
           h5.mb-0 W = R x I ^2 x t
 
     p Donde Q es la cantidad de calor generado, I es la intensidad de la corriente, R es la resistencia del conductor y t es el tiempo que dura la corriente.
@@ -203,22 +205,20 @@
     .subt2.mb-4(data-aos="fade")
       h3.mb-0.py-1.px-4 Ley de Watt - Potencia eléctrica
 
-    p Es la cantidad de energía eléctrica o trabajo, que se transporta o que se consume en una determinada unidad de tiempo.
+    .tarjeta.bg5.p-4.mb-4
+      p Es la cantidad de energía eléctrica o trabajo, que se transporta o que se consume en una determinada unidad de tiempo.
+      p.mb-0 Si la tensión se mantiene constante, la potencia es directamente proporcional a la corriente. Para calcular la potencia en Watts se puede utilizar la fórmula:   
 
-    p Si la tensión se mantiene constante, la potencia es directamente proporcional a la corriente. Para calcular la potencia en Watts se puede utilizar la fórmula:   
-
-    .row.justify-content-center.mb-4(data-aos="fade-down")
-      .col-lg-2.col-md-3.col-4
-        .tarjeta.bg4.p-4.text-center
+    .row.justify-content-center.mb-4
+      .col-lg-3.col-md-4.col-6(data-aos="fade-right")
+        .tarjeta.bg4.p-4.py-3.text-center.mb-4
           h5.mb-0 P=VxI 
-
-    p.text-center Donde:
-
-    p.mb-0.text-center P: potencia.
-    p.mb-0.text-center I: corriente. 
-    p.text-center V: voltaje.
-
-
+        p.text-center Donde:
+        p.mb-0.text-center P: potencia.
+        p.mb-0.text-center I: corriente. 
+        p.text-center V: voltaje.
+      .col-lg-9.d-none.d-lg-block(data-aos="fade-left")
+        img(src='@/assets/curso/temas/t3/4.png', alt='')
 
 </template>
 

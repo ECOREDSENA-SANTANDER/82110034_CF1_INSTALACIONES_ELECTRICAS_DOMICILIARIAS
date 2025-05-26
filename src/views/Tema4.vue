@@ -121,6 +121,8 @@
               figure.mb-2
                 img(src='@/assets/curso/temas/t4/fig8.svg', alt='La figura expone un código de colores asociado con valores numéricos y multiplicadores utilizados para identificar resistencias electrónicas: el marrón representa 1 y tiene un multiplicador de X10; el rojo es 2 con X100; el naranja es 3 con X1.000; el amarillo es 4 con X10.000; el verde es 5 con X100.000; el azul es 6 x 1.000.000; el violeta es 7; el gris es 8 con X0.1; y el blanco es 9 con X0.01. Además, se indican valores sin color, como el plateado (+/-1) y el dorado (+/-2), junto con sus márgenes de error.')  
               figcaption Fuente: Zambrano, (2019)
+            .col-lg-4.d-none.d-lg-block
+              img(src='@/assets/curso/temas/t4/2.png', alt='')
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8.mb-3
@@ -144,34 +146,24 @@
     .subt2.mb-4(data-aos="fade")
       h3.mb-0.py-1.px-4 Resistencias en serie
 
-    p En un circuito en serie donde las resistencias se colocan una seguida de la otra de tal modo que la corriente, deberá fluir primero por una de ellas para llegar a la siguiente, esto implica que el valor de la resistencia total del circuito sea la suma de todas ellas.  
-
-    .row.justify-content-center.mb-4(data-aos="fade-down")
-      .col-lg-3.col-md-7.col-9
+    .row.justify-content-center.mb-5
+      .col-lg-6.mb-3.mb-lg-0(data-aos="fade-right")
+        p En un circuito en serie donde las resistencias se colocan una seguida de la otra de tal modo que la corriente, deberá fluir primero por una de ellas para llegar a la siguiente, esto implica que el valor de la resistencia total del circuito sea la suma de todas ellas.  
         .tarjeta.bg5.p-4.text-center
           h3.mb-0.font-italic Rt = R1+ R2 + R3
+      .col-lg-6.col-md-9.px-lg-5(data-aos="fade-left")
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 9.
+          span Resistencia en serie
+        figure.mb-2
+          img(src='@/assets/curso/temas/t4/fig9.svg', alt='La imagen presenta un circuito en serie compuesto por tres resistencias, R1, R2 y R3; la resistencia total (Rt) se calcula sumando las resistencias individuales, es decir, Rt = R1 + R2 + R3.')  
+    
 
-    .row.bgc-3.align-items-center.p-2.p-md-3.mb-5(data-aos="fade-down")
-      .col-lg-12.col-12.px-lg-4
-        .row.justify-content-center.align-items-center
-
-          .row.justify-content-center
-            .col-lg-12
-              .titulo-sexto.color-acento-contenido
-                h5 Figura 9.
-                span Resistencia en serie
-            .col-lg-5.col-md-8
-              figure.mb-2
-                img(src='@/assets/curso/temas/t4/fig9.svg', alt='La imagen presenta un circuito en serie compuesto por tres resistencias, R1, R2 y R3; la resistencia total (Rt) se calcula sumando las resistencias individuales, es decir, Rt = R1 + R2 + R3.')  
-
-
-    .subt2.mb-4(data-aos="fade")
-      h3.mb-0.py-1.px-4 Resistencias en paralelo
-
-    p En un circuito en paralelo las resistencias se colocan según se indica en la siguiente figura, de esta manera la corriente eléctrica llega a todas las resistencias a la vez, aunque la intensidad de la corriente es mayor por el resistor de menor valor. En este caso la resistencia total del circuito se puede obtener utilizando la ecuación que se presenta.
-
-    .row.justify-content-center.mb-4(data-aos="fade-down")
-      .col-lg-4.col-md-7.col-10
+    .row.justify-content-between.align-items-center.mb-5
+      .col-lg-7.mb-3.mb-lg-0(data-aos="fade-right")
+        .subt2.mb-4
+          h3.mb-0.py-1.px-4 Resistencias en paralelo
+        p En un circuito en paralelo las resistencias se colocan según se indica en la siguiente figura, de esta manera la corriente eléctrica llega a todas las resistencias a la vez, aunque la intensidad de la corriente es mayor por el resistor de menor valor. En este caso la resistencia total del circuito se puede obtener utilizando la ecuación que se presenta.
         .tarjeta.bg5.p-4.text-center          
           .outer-container
             .math-expression
@@ -198,123 +190,89 @@
                   span.math-number 1
                 .lower-element
                   span.resistance-label R3
+      .col-lg-4.col-md-7(data-aos="fade-left")
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 10.
+          span Resistencia en paralelo
+        figure.mb-2
+          img(src='@/assets/curso/temas/t4/fig10.svg', alt='La figura representa un arreglo de resistencias en paralelo, conformado por tres resistencias: R1, R2 y R3. Todas están conectadas entre los mismos dos puntos, lo que permite que la corriente se divida entre las tres ramas. La resistencia equivalente total del sistema se denota como Rt y es menor que el valor de la menor resistencia individual del conjunto.')  
+                
 
-    .row.bgc-3.align-items-center.p-2.p-md-3.mb-5(data-aos="fade-down")
-      .col-lg-12.col-12.px-lg-4
-        .row.justify-content-center.align-items-center
+    .row.justify-content-between.mb-5
+      .col-lg-7.mb-3.mb-lg-0(data-aos="fade-right")
+        .subt2.mb-4
+          h3.mb-0.py-1.px-4 Circuitos combinados
+        .tarjeta.bg10.p-4
+          p.mb-0 En un circuito en paralelo las resistencias se colocan según se indica en la siguiente figura, de esta manera la corriente eléctrica llega a todas las resistencias a la vez, aunque la intensidad de la corriente es mayor por el resistor de menor valor. En este caso la resistencia total del circuito se puede obtener utilizando la ecuación que se presenta.
+      .col-lg-4.col-md-7(data-aos="fade-left")
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 11.
+          span Resistencia en circuito combinado
+        figure.mb-2
+          img(src='@/assets/curso/temas/t4/fig11.svg', alt='La figura representa un circuito combinado que integra resistencias en paralelo y en serie. R1 y R2 están en paralelo, conectadas en serie con R3. Esta combinación se enlaza en paralelo con R4 y R5, y finalmente todo el conjunto está en serie con R6. La resistencia total equivalente del sistema se denota como Rt. Este tipo de configuración permite analizar la interacción entre diferentes arreglos de resistencias dentro de un mismo circuito.')  
 
-          .row.justify-content-center
-            .col-lg-12
-              .titulo-sexto.color-acento-contenido
-                h5 Figura 10.
-                span Resistencia en paralelo
-            .col-lg-4.col-md-8
-              figure.mb-2
-                img(src='@/assets/curso/temas/t4/fig10.svg', alt='La figura representa un arreglo de resistencias en paralelo, conformado por tres resistencias: R1, R2 y R3. Todas están conectadas entre los mismos dos puntos, lo que permite que la corriente se divida entre las tres ramas. La resistencia equivalente total del sistema se denota como Rt y es menor que el valor de la menor resistencia individual del conjunto.')  
-             
-
-    .subt2.mb-4(data-aos="fade")
-      h3.mb-0.py-1.px-4 Circuitos combinados
-
-    p En un circuito en paralelo las resistencias se colocan según se indica en la siguiente figura, de esta manera la corriente eléctrica llega a todas las resistencias a la vez, aunque la intensidad de la corriente es mayor por el resistor de menor valor. En este caso la resistencia total del circuito se puede obtener utilizando la ecuación que se presenta.
-
-    .row.bgc-3.align-items-center.p-2.p-md-3.mb-4(data-aos="fade-down")
-      .col-lg-12.col-12.px-lg-4
-        .row.justify-content-center.align-items-center
-
-          .row.justify-content-center
-            .col-lg-12
-              .titulo-sexto.color-acento-contenido
-                h5 Figura 11.
-                span Resistencia en circuito combinado
-            .col-lg-4.col-md-8
-              figure.mb-2
-                img(src='@/assets/curso/temas/t4/fig11.svg', alt='La figura representa un circuito combinado que integra resistencias en paralelo y en serie. R1 y R2 están en paralelo, conectadas en serie con R3. Esta combinación se enlaza en paralelo con R4 y R5, y finalmente todo el conjunto está en serie con R6. La resistencia total equivalente del sistema se denota como Rt. Este tipo de configuración permite analizar la interacción entre diferentes arreglos de resistencias dentro de un mismo circuito.')  
-
-    p.text-center Se puede iniciar por los circuitos más sencillos como resolver R 1-2, que representa la resistencia total entre R1 y R2, como están en paralelo.
-
-    .row.justify-content-center.mb-4(data-aos="fade-down")
-      .col-lg-4.col-md-7.col-9
-        .tarjeta.bg5.p-4.text-center
-          h3.mb-0.font-italic 1 / R₁₋₂ = 1 / R₁ + 1 / R₂
-
-    p.text-center Combinando el resultado anterior con R3 y teniendo en cuenta que se trata de un circuito en serie.
-
-    .row.justify-content-center.mb-4(data-aos="fade-down")
-      .col-lg-3.col-md-7.col-9
-        .tarjeta.bg5.p-4.text-center
-          h3.mb-0.font-italic R₁₋₂₋₃ = R₁₋₂ + R₃
-
-    p.text-center.mb-4 El circuito va quedando más pequeño, como se expone a continuación:
+    .tarjeta.bg11.mb-5(data-aos="fade")
+      .row.justify-content-center
+        .col-lg-5.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t4/3.png', alt='')
+        .col-lg-7       
+          .p-4
+            p.text-center.text-white Se puede iniciar por los circuitos más sencillos como resolver R 1-2, que representa la resistencia total entre R1 y R2, como están en paralelo.
+            .tarjeta.bg5.p-4.text-center.text-dark.mb-4
+              h3.mb-0.font-italic 1 / R₁₋₂ = 1 / R₁ + 1 / R₂
+            p.text-center.text-white Combinando el resultado anterior con R3 y teniendo en cuenta que se trata de un circuito en serie.
+            .tarjeta.bg5.p-4.text-center.text-dark.mb-4
+              h3.mb-0.font-italic R₁₋₂₋₃ = R₁₋₂ + R₃
+            p.text-center.text-white El circuito va quedando más pequeño, como se expone a continuación:
 
 
-    .row.bgc-3.align-items-center.p-2.p-md-3.mb-4(data-aos="fade-down")
-      .col-lg-12.col-12.px-lg-4
-        .row.justify-content-center.align-items-center
+    .tarjeta.bg3.mb-5(data-aos="fade-down")
+      .row.justify-content-center
+        .col-lg-4.col-md-7
+          .p-3
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 12.
+              span Resistencias en serie (R4 y R5)
+            figure
+              img.px-lg-3(src='@/assets/curso/temas/t4/fig12.svg', alt='La imagen representa un circuito eléctrico en un esquema de conexión de componentes conectados en paralelo (R1-2-3 y R4-R5). La resistencia total del circuito (R-t) se calcula sumando las resistencias en serie y utilizando la fórmula clásica para resistencias en paralelo, lo que permite determinar el comportamiento eléctrico del circuito completo.')  
+        .col-lg-4
+          .bg10.h-100.p-4
+            p.text-center Nuevamente se presenta un circuito en serie entre R4 y R5, entonces.
+            .tarjeta.bg5.p-4.text-center.mb-4
+              h3.mb-0.font-italic R₄₋₅ = R₄ + R₅
+            p.text-center.mb-4 De tal modo que se suprime y se reemplaza por R 4-5.
+        .col-lg-4.col-md-9
+          .p-3
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 13.
+              span Resistencias en paralelo (R1-2-3 y R4-5)
+            figure
+              img.w-50.m-auto(src='@/assets/curso/temas/t4/fig13.svg', alt='El circuito presenta una configuración en la que se tiene una residencia equivalente R1-2-3 conectada en paralelo con una resistencia equivalente R4-5. Ambas resistencias equivalentes están conectadas en serie con R6, formando la resistencia total Rt del circuito.')  
 
-          .row.justify-content-center
-            .col-lg-12
-              .titulo-sexto.color-acento-contenido
-                h5 Figura 12.
-                span Resistencias en serie (R4 y R5)
-            .col-lg-5.col-md-8
-              figure.mb-2
-                img(src='@/assets/curso/temas/t4/fig12.svg', alt='La imagen representa un circuito eléctrico en un esquema de conexión de componentes conectados en paralelo (R1-2-3 y R4-R5). La resistencia total del circuito (R-t) se calcula sumando las resistencias en serie y utilizando la fórmula clásica para resistencias en paralelo, lo que permite determinar el comportamiento eléctrico del circuito completo.')  
-
-    p.text-center Nuevamente se presenta un circuito en serie entre R4 y R5, entonces.
-
-    .row.justify-content-center.mb-4(data-aos="fade-down")
-      .col-lg-4.col-md-7.col-9
-        .tarjeta.bg5.p-4.text-center
-          h3.mb-0.font-italic R₄₋₅ = R₄ + R₅
-
-    p.text-center.mb-4 De tal modo que se suprime y se reemplaza por R 4-5.
-
-
-    .row.bgc-3.align-items-center.p-2.p-md-3.mb-4(data-aos="fade-down")
-      .col-lg-12.col-12.px-lg-4
-        .row.justify-content-center.align-items-center
-
-          .row.justify-content-center
-            .col-lg-12
-              .titulo-sexto.color-acento-contenido
-                h5 Figura 13.
-                span Resistencias en paralelo (R1-2-3 y R4-5)
-            .col-lg-3.col-md-5.col-9
-              figure.mb-2
-                img(src='@/assets/curso/temas/t4/fig13.svg', alt='El circuito presenta una configuración en la que se tiene una residencia equivalente R1-2-3 conectada en paralelo con una resistencia equivalente R4-5. Ambas resistencias equivalentes están conectadas en serie con R6, formando la resistencia total Rt del circuito.')  
-
-    p Se evidencia que cada vez la malla del circuito se va reduciendo, sucede que es una forma sencilla de resolverlo por pasos, con la práctica no será necesario hacerlo ya que se podrá resolver mentalmente.
-    
-    p Ahora se resuelve el circuito en paralelo para obtener R 1…5.
-
-    .row.justify-content-center.mb-4(data-aos="fade-down")
-      .col-lg-4.col-md-7.col-10
-        .tarjeta.bg5.p-4.text-center
+    .row.justify-content-center.mb-5
+      .col-lg-6(data-aos="fade-right")
+        p Se evidencia que cada vez la malla del circuito se va reduciendo, sucede que es una forma sencilla de resolverlo por pasos, con la práctica no será necesario hacerlo ya que se podrá resolver mentalmente.        
+        p Ahora se resuelve el circuito en paralelo para obtener R 1…5.
+        .tarjeta.bg5.p-4.text-center.mb-4
           h3.mb-0.font-italic 1 / R₁…₅ = 1 / R₁₋₂₋₃ + 1 / R₄₋₅
+        p Finalmente se obtiene el circuito más sencillo de todos y es un circuito en serie, el cual proporciona la resistencia total.
+      .col-lg-4.col-md-10(data-aos="fade-left")
+        .bg3.p-4.h-100
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 14.
+            span Resistencia en serie (R1...5 y R6) 
+          figure
+            img.w-50.m-auto(src='@/assets/curso/temas/t4/fig14.svg', alt='En el circuito representado,  las resistencias R1, R2, R3, R4 y R5 forman una resistencia equivalente R1-5 que esta conectada en serie a una resistencia R6 y que su resistencia total se denota como Rt.')  
 
-    p Finalmente se obtiene el circuito más sencillo de todos y es un circuito en serie, el cual proporciona la resistencia total.
-
-
-    .row.bgc-3.align-items-center.p-2.p-md-3.mb-4(data-aos="fade-down")
-      .col-lg-12.col-12.px-lg-4
-        .row.justify-content-center.align-items-center
-
-          .row.justify-content-center
-            .col-lg-12
-              .titulo-sexto.color-acento-contenido
-                h5 Figura 14.
-                span Resistencia en serie (R1...5 y R6) 
-            .col-lg-3.col-md-6.col-9
-              figure.mb-2
-                img(src='@/assets/curso/temas/t4/fig14.svg', alt='En el circuito representado,  las resistencias R1, R2, R3, R4 y R5 forman una resistencia equivalente R1-5 que esta conectada en serie a una resistencia R6 y que su resistencia total se denota como Rt.')  
-
-    p.text-center El cálculo final sería como sigue:
-
-    .row.justify-content-center.mb-4(data-aos="fade-down")
-      .col-lg-3.col-9
-        .tarjeta.bg5.p-4.text-center
-          h3.mb-0.font-italic Rt = R₁…₅ + R₆
+    
+    .row.justify-content-center
+      .col-lg-4.col-md-8
+        .tarjeta.bg11.p-4
+          h5.text-center.text-white.mb-4 El cálculo final sería como sigue:
+        .row.justify-content-center.mt-n1
+          .col-lg-9.col-md-7.col-9
+            .tarjeta.bg5.p-4.text-center
+              h3.mb-0.font-italic Rt = R₁…₅ + R₆
 
 </template>
 
