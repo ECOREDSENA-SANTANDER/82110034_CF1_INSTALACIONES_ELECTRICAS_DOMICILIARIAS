@@ -92,7 +92,7 @@
       .col-lg-7.d-none.d-lg-block(data-aos="fade-right")
         img(src='@/assets/curso/temas/t5/2.png', alt='')
       .col-lg-5(data-aos="fade-left")
-        p.text-center Después se calcula la corriente total:
+        p Después se calcula la corriente total:
         .tarjeta.bg5.fw-bold.text-center.p-2.mb-4
           div.formula-container
             span.v2 IT
@@ -102,10 +102,23 @@
                 span.r V
               .denominator 
                 span.r RT
-        p.text-center Donde V es el voltaje total que se le proporciona al circuito.
-        p.text-center Para calcular el valor de la corriente que pasa en cada una de las resistencias, se tiene la fórmula de división de corriente.
-        p.text-center Para la Corriente que pasa a través de la resistencia 1:
-        .tarjeta.bg5.fw-bold.text-center.p-2.mb-4
+        p Donde V es el voltaje total que se le proporciona al circuito.
+        p Para calcular el valor de la corriente que pasa en cada una de las resistencias, se tiene la fórmula de división de corriente.
+        p Para la Corriente que pasa a través de la resistencia 1:
+        .tarjeta.bg5.fw-bold.text-center.p-2.py-0.mb-4
+          div.equation-box
+            span.current-i2 I1
+            span.equation-symbol =
+            span.current-it IT
+            span.parenthesis-left (
+            div.division-part
+              div.top-section
+                span.resistance R2 
+              div.bottom-section
+                span.resistance R1 + R2
+            span.parenthesis-right )
+        p Para la corriente que pasa por la resistencia 2:
+        .tarjeta.bg5.fw-bold.text-center.p-2.py-0.mb-4
           div.equation-box
             span.current-i2 I2
             span.equation-symbol =
@@ -117,7 +130,7 @@
               div.bottom-section
                 span.resistance R1 + R2
             span.parenthesis-right )
-        p.text-center La suma de ambas corrientes debe ser igual a la corriente total.
+        p La suma de ambas corrientes debe ser igual a la corriente total.
 
 
     .subt.mb-4(data-aos="fade-right")
@@ -171,7 +184,7 @@
         .tarjeta.tarj-hover.text-center.p-4.h-100
           img.mb-0(src='@/assets/curso/temas/t5/tarj2.png', alt='')
           h4.tit.mb-3.py-1.pb-0.px-4 Tolerancia
-          p.mb-0 Al igual que en las resistencias, la tolerancia indica el margen de error entre la capacidad real del condensador y la que se indica en su carcasa. Por ejemplo, un condensador de 100 µF con una tolerancia del ±10% puede tener una capacidad real entre 90 µF y 110 µF.
+          p.mb-0 Al igual que en las resistencias, la tolerancia indica el margen de error entre la capacidad real del condensador y la que se indica en su carcasa. Por ejemplo, un condensador de 100 µF con una tolerancia del ±10 % puede tener una capacidad real entre 90 µF y 110 µF.
       .col-lg-4.col-md-6.mb-3
         .tarjeta.tarj-hover.text-center.p-4.h-100
           img.mb-0(src='@/assets/curso/temas/t5/tarj3.png', alt='')

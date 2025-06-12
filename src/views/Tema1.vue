@@ -252,7 +252,7 @@
         .col-lg-8.text-center(data-aos="fade-left")
           .tarjeta.bg4.p-4.px-lg-5.mb-4
             h5 Es decir, la suma de los voltajes en cada resistencia es igual al voltaje total suministrado por la fuente:
-            h5.mb-0 V total=V1+V2+V3+…+Vn
+            h5.mb-0 V total = V1 + V2 + V3 + … + Vn
           p.text-center Cada caída de voltaje en una resisteancia depende del valor de la resistencia y de la corriente, según la Ley de Ohm.
           p.text-center La resistencia total de un circuito en serie se calcula sumando los valores individuales de cada resistencia:
           .row.justify-content-center.mb-4
@@ -262,7 +262,7 @@
           .row.justify-content-center.mb-4
             .col-lg-6.col-md-6.col-9.text-center
               .tarjeta.bg4.p-4.px-lg-5
-                h5.mb-0 R total=R1+R2+R3+…+Rn
+                h5.mb-0 R total = R1 + R2 + R3 + … + Rn
 
       .row.justify-content-center.mb-5
         .col-lg-8(data-aos="fade-right")
@@ -270,7 +270,7 @@
           p.mb-4 #[b Comportamiento de generadores en serie:] cuando se conectan generadores (fuentes de voltaje) en serie, se pueden sumar sus voltajes para obtener una mayor tensión total, siempre que tengan la misma polaridad.
           .tarjeta.bg4.p-4.px-lg-5.mb-4.text-center
             h5 La fórmula general para el voltaje total de generadores en serie es:
-            h5.mb-0 E total=E1+E2+E3+…+En
+            h5.mb-0 E total = E1 + E2 + E3 + … + En
           p Es importante tener en cuenta que, si las polaridades no coinciden, habrá una resta de voltajes según cómo estén conectadas.
         .col-lg-4.col-md-8(data-aos="fade-left")
           .titulo-sexto.color-acento-contenido
@@ -327,18 +327,18 @@
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tipo-a bg8")
             .row.justify-content-center(titulo="Para generadores")
               .col-md-10
-                p.mb-0 VT=V1=V2=⋯Vn
-                p Donde VT= Voltaje total, V1= Voltaje 1, V2= Voltaje 2, Vn= Voltaje n.
-                p.mb-0 IT=I1+I2+⋯+In
-                p IT= Intensidad total, I1= Intensidad 1, I2= Intensidad 2, In= Intensidad n.
+                p.mb-0 VT = V1 = V2 = ⋯ Vn
+                p Donde VT = Voltaje total, V1= Voltaje 1, V2 = Voltaje 2, Vn = Voltaje n.
+                p.mb-0 IT = I1 + I2 + ⋯ + In
+                p IT = Intensidad total, I1 = Intensidad 1, I2 = Intensidad 2, In = Intensidad n.
             .row.justify-content-center(titulo="Para resistencias")
               .col-md-10
-                p 1/RT=1/R1+1/R2+⋯1/( RT)  
+                p 1/RT = 1/R1 + 1/R2 + ⋯ 1/( RT)  
                 p Donde RT= Resistencia total, R1= Resistencia 1, R2= Resistencia 2.
             .row.justify-content-center(titulo="Para condensadores")
               .col-md-10
-                p CT=C1+C2+⋯+Cn
-                p Donde CT= Capacitancia total, C1= Capacitancia 1, C2= Capacitancia 2, Cn= Capacitancia n.
+                p CT = C1 + C2 + ⋯ + Cn
+                p Donde CT = Capacitancia total, C1 = Capacitancia 1, C2 = Capacitancia 2, Cn = Capacitancia n.
         .col-lg-3.d-none.d-lg-block(data-aos="fade-left")
           img(src='@/assets/curso/temas/t1/8.jpg', alt='')
 

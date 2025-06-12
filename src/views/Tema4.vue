@@ -129,7 +129,7 @@
         .tarjeta.bg4.p-4
           h5.mb-0 Ejemplo. 
           h5.mb-0 Si los colores son: marrón, negro, rojo, oro, su valor en ohmios (ver Ley de Ohm) es: 
-          h5.mb-0 10 x 100= 1000 = 1K.   
+          h5.mb-0 10 x 100 = 1000 = 1K.    
           h5.mb-0 Tolerancia de 5 %.
 
 

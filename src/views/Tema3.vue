@@ -21,13 +21,13 @@
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-lg-2.col-md-3.col-4.mb-3
         .tarjeta.bg5.p-3.py-md-4.text-center
-          h3.mb-0.font-italic I=V/R
+          h3.mb-0.font-italic I = V/R
       .col-lg-2.col-md-3.col-4.mb-3
         .tarjeta.bg5.p-3.py-md-4.text-center
-          h3.mb-0.font-italic V=IR
+          h3.mb-0.font-italic V = IR
       .col-lg-2.col-md-3.col-4.mb-3
         .tarjeta.bg5.p-3.py-md-4.text-center
-          h3.mb-0.font-italic R=V/I
+          h3.mb-0.font-italic R = V/I
     
     p.text-center.mb-4 Donde:      
 
@@ -76,7 +76,7 @@
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-lg-11.mb-3
         .tarjeta.bg5.p-3.py-md-4.text-center
-          h3.mb-0 (Suma algebraica de E) Σ E - Σ I*R = 0. (Suma algebraica de las caídas I*R, en la malla cerrada)
+          h3.mb-0 (Suma algebraica de E) Σ E - Σ I * R = 0. (Suma algebraica de las caídas I * R, en la malla cerrada)
 
     p.text-center Donde:
 
@@ -110,7 +110,7 @@
                 img(src='@/assets/curso/temas/t3/fig4.svg', alt='La figura representa un circuito resistivo con un nodo central donde convergen tres corrientes: I1, I2 e I3. Cada rama contiene una resistencia de 1k. El diagrama ilustra la aplicación de la Ley de Kirchhoff para corrientes, indicando que la suma de las corrientes que entran al nodo es igual a la suma de las que salen.')  
               figcaption Fuente: Polverini, (2022)
 
-    p Las flechas representan la dirección del flujo de la corriente en el nodo. I1 entra a la unión, considerando que I2 e I3 salen. Si I1 fuera 20 A e I3 fuera 5 A, I2 tendría 15 A, según la ley de corrientes de I1=I2 + I3.
+    p Las flechas representan la dirección del flujo de la corriente en el nodo. I1 entra a la unión, considerando que I2 e I3 salen. Si I1 fuera 20 A e I3 fuera 5 A, I2 tendría 15 A, según la ley de corrientes de I1 = I2 + I3.
 
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-lg-7.mb-3
@@ -166,19 +166,36 @@
                   span.mb-0 El voltaje en el lado izquierdo (la resistencia R1 de 10 Ω), está saliendo del terminal superior de la Resistencia.
                 li
                   i.fas.fa-circle-check
-                  span.mb-0 La diferencia de potencial (DDP) en esta resistencia R1 es de I1xR o sea, 5 voltios. Esto está en oposición de los 15 voltios de la batería.
+                  span.mb-0 La diferencia de potencial (DDP) en esta resistencia R1 es de I1 x R o sea, 5 voltios. Esto está en oposición de los 15 voltios de la batería.
                 li
                   i.fas.fa-circle-check
-                  span.mb-0 Por la ley de Kirchhoff del voltaje, la diferencia de potencial (DDP) por la resistencia R2 de 10 Ω es así 15-5 o sea, 10 voltios.
+                  span.mb-0 Por la ley de Kirchhoff del voltaje, la diferencia de potencial (DDP) por la resistencia R2 de 10 Ω es así 15 - 5 o sea, 10 voltios.
                 li
                   i.fas.fa-circle-check
                   span.mb-0 Usando la ley Ohm, la corriente a través de la resistencia R2 10 Ω es entonces (V/R) 1 amperio.
                 li
                   i.fas.fa-circle-check
-                  span.mb-0 Usando la ley de Kirchhoff de la corriente y ahora conociendo el I1 e I3, el I2 se encuentra como I3=I1+I2  por consiguiente el amperaje de I2= 0.5 A.
+                  span.mb-0 Usando la ley de Kirchhoff de la corriente y ahora conociendo el I1 e I3, el I2 se encuentra como I3 = I1 + I2  por consiguiente el amperaje de I2 = 0.5 A.
                 li
                   i.fas.fa-circle-check
-                  span.mb-0 De nuevo, usando la ley de Kirchhoff del voltaje, la diferencia de potencial (DDP) para R3 puede calcularse como, 20 = I2xR3 +10. El voltaje por R3 (el I2xR3 ) es entonces 10 voltios. El valor de R3 es (V/I)o 10/0.5o 20Ω.
+                  span.mb-0 De nuevo, usando la ley de Kirchhoff del voltaje, la diferencia de potencial (DDP) para R3 puede calcularse como, 20 = I2 x R3 + 10. El voltaje por R3 (el I2 x R3 ) es entonces 10 voltios.
+                li
+                  i.fas.fa-circle-check
+                  span.mb-0 El valor de R3 es:
+              div.formula-container.font-normal.ms-4
+                span.v2 R3 es
+                .fraction
+                  .numerator
+                    span.r V
+                  .denominator 
+                    span.r I
+                span.v o 
+                .fraction
+                  .numerator
+                    span.r 10
+                  .denominator 
+                    span.r 0.5
+                span.v o 20 Ω
 
           .row.justify-content-center
             .col-lg-12
@@ -191,11 +208,11 @@
         img(src='@/assets/curso/temas/t3/3.png', alt='')
       .col-lg-5.col-md-8.col-11(data-aos="fade-left")
         .tarjeta.bg4.p-4.text-center.h-100
-          h5 W=VxQ
-          h5 Por otro lado, sabemos que Q=Ixt
-          h5 entonces: W=VxIxt
-          h5 Por la ley de Ohm sabemos que V=RxI
-          h5 entonces: W=(RxI)xIxt
+          h5 W = V x Q
+          h5 Por otro lado, sabemos que Q = I x t
+          h5 entonces: W = V x I x t
+          h5 Por la ley de Ohm sabemos que V = R x I
+          h5 entonces: W = (R x I) x I x t
           h5.mb-0 W = R x I ^2 x t
 
     p Donde Q es la cantidad de calor generado, I es la intensidad de la corriente, R es la resistencia del conductor y t es el tiempo que dura la corriente.
@@ -212,7 +229,7 @@
     .row.justify-content-center.mb-4
       .col-lg-3.col-md-4.col-6(data-aos="fade-right")
         .tarjeta.bg4.p-4.py-3.text-center.mb-4
-          h5.mb-0 P=VxI 
+          h5.mb-0 P = V x I 
         p.text-center Donde:
         p.mb-0.text-center P: potencia.
         p.mb-0.text-center I: corriente. 

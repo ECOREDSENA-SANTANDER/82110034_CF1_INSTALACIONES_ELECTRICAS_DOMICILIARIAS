@@ -20,7 +20,7 @@ export default {
       tema: 'Fundamentos de electricidad para instalaciones en casa',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> Identificar la apropiación de los contenidos en la temática sobre Conceptos básicos de electricidad.',
+        '<b>Objetivo:</b> identificar la apropiación de los contenidos en la temática sobre Conceptos básicos de electricidad.',
       barajarPreguntas: false,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -235,7 +235,7 @@ export default {
         {
           id: 10,
           texto:
-            'Para calcular la potencia en vatios se puede utilizar la fórmula Rt=R1+R2+…Rn ',
+            'Para calcular la potencia en vatios se puede utilizar la fórmula Rt = R1 + R2 + R3 + … Rn',
           imagen: require('@/assets/actividad/imagen2.jpg'),
           barajarRespuestas: false,
           opciones: [
