@@ -203,7 +203,7 @@
         .subt2.mb-4
           h3.mb-0.py-1.px-4 Circuitos combinados
         .tarjeta.bg10.p-4
-          p.mb-0 En un circuito en paralelo las resistencias se colocan según se indica en la siguiente figura, de esta manera la corriente eléctrica llega a todas las resistencias a la vez, aunque la intensidad de la corriente es mayor por el resistor de menor valor. En este caso la resistencia total del circuito se puede obtener utilizando la ecuación que se presenta.
+          p.mb-0 Existen configuraciones en las que las resistencias están conectadas tanto en serie como en paralelo dentro de un mismo sistema. A estos se les denomina circuitos combinados. Para calcular el valor total de la resistencia en este tipo de circuitos, es necesario analizar cada sección por separado, resolviéndolas por medio de mallas o etapas sucesivas, simplificando paso a paso hasta obtener la resistencia equivalente total. 
       .col-lg-4.col-md-7(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido
           h5 Figura 11.

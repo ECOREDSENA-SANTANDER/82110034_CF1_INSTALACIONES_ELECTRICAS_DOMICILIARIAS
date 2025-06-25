@@ -328,13 +328,13 @@
             .row.justify-content-center(titulo="Para generadores")
               .col-md-10
                 p.mb-0 VT = V1 = V2 = ⋯ Vn
-                p Donde VT = Voltaje total, V1= Voltaje 1, V2 = Voltaje 2, Vn = Voltaje n.
+                p Donde VT = Voltaje total, V1 = Voltaje 1, V2 = Voltaje 2, Vn = Voltaje n.
                 p.mb-0 IT = I1 + I2 + ⋯ + In
                 p IT = Intensidad total, I1 = Intensidad 1, I2 = Intensidad 2, In = Intensidad n.
             .row.justify-content-center(titulo="Para resistencias")
               .col-md-10
                 p 1/RT = 1/R1 + 1/R2 + ⋯ 1/( RT)  
-                p Donde RT= Resistencia total, R1= Resistencia 1, R2= Resistencia 2.
+                p Donde RT = Resistencia total, R1 = Resistencia 1, R2 = Resistencia 2.
             .row.justify-content-center(titulo="Para condensadores")
               .col-md-10
                 p CT = C1 + C2 + ⋯ + Cn

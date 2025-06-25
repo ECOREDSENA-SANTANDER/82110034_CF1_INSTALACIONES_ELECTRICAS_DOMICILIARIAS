@@ -8,7 +8,7 @@
       h1 Estudio de los divisores de tensión y corriente y del comportamiento dinámico de condensadores e inductores en circuitos eléctricos
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-6(data-aos="fade-right")
+      .col-lg-12(data-aos="fade")
         .subt.mb-4
           .row.align-items-center
             .col-md-auto.col-2
@@ -18,7 +18,11 @@
         p Es un principio fundamental en el análisis de circuitos eléctricos. Permite calcular el voltaje que cae sobre una o varias resistencias conectadas en serie, a partir del voltaje total aplicado al circuito.
         p Este método se aplica directamente cuando se trabaja con dos resistencias en serie. Si el circuito contiene más de dos resistencias, se debe aplicar el divisor de voltaje de forma progresiva, agrupando resistencias de dos en dos y resolviendo paso a paso hasta alcanzar la resistencia de interés.
         .tarjeta.bg4.p-4.px-lg-5
-          h5.mb-0 El divisor de voltaje es especialmente útil cuando no se dispone del valor de la corriente eléctrica en el circuito, pero sí se conocen los valores de las resistencias. En estos casos, no es posible aplicar directamente la Ley de Ohm, por lo que el divisor de tensión se convierte en una herramienta clave para determinar los voltajes parciales en cada componente.
+          h5.mb-0 El divisor de voltaje es especialmente útil cuando no se dispone del valor de la corriente eléctrica en el circuito, pero sí se conocen los valores de las resistencias. En estos casos, no es posible aplicar directamente la Ley de Ohm, por lo que el divisor de tensión se convierte en una herramienta clave para determinar los voltajes parciales en cada componente.      
+
+    p.text-center.mb-4 A continuación, se presentan las fórmulas correspondientes junto con el esquema ilustrativo para su aplicación:
+    
+    .row.justify-content-around.align-items-center.mb-5  
       .col-lg-6.col-md-8.col-10(data-aos="fade-left")
         .bg-grad1.p-3.p-md-4.px-lg-5
           .titulo-sexto.color-acento-contenido
@@ -26,12 +30,8 @@
             span Aplicación del divisor de voltaje
           figure.mb-2
             img.px-lg-3(src='@/assets/curso/temas/t5/fig15.svg', alt='El diagrama muestra un circuito eléctrico simple que incluye una fuente de voltaje (V) y dos resistencias, (R1) y (R2), en serie. En este circuito, la corriente (I) fluye a través de las resistencias, generando tensiones (V1) y (V2) en ellas, respectivamente.')  
-          figcaption Fuente: Zambrano, (2019)
-    
-    p.text-center.mb-4 A continuación, se presentan las fórmulas correspondientes junto con el esquema ilustrativo para su aplicación:
-
-    .row.justify-content-center.text-center.mb-5(data-aos="fade-down")
-      .col-lg-5
+          figcaption Fuente: Zambrano, (2019)    
+      .col-lg-5(data-aos="fade-right")
         .subt2.mb-4.m-auto
           h3.mb-0.py-1.px-4 Fórmulas
         .tarjeta.bg5.p-3
@@ -104,7 +104,7 @@
                 span.r RT
         p Donde V es el voltaje total que se le proporciona al circuito.
         p Para calcular el valor de la corriente que pasa en cada una de las resistencias, se tiene la fórmula de división de corriente.
-        p Para la Corriente que pasa a través de la resistencia 1:
+        p Para la corriente que pasa a través de la resistencia 1:
         .tarjeta.bg5.fw-bold.text-center.p-2.py-0.mb-4
           div.equation-box
             span.current-i2 I1
@@ -184,7 +184,7 @@
         .tarjeta.tarj-hover.text-center.p-4.h-100
           img.mb-0(src='@/assets/curso/temas/t5/tarj2.png', alt='')
           h4.tit.mb-3.py-1.pb-0.px-4 Tolerancia
-          p.mb-0 Al igual que en las resistencias, la tolerancia indica el margen de error entre la capacidad real del condensador y la que se indica en su carcasa. Por ejemplo, un condensador de 100 µF con una tolerancia del ±10 % puede tener una capacidad real entre 90 µF y 110 µF.
+          p.mb-0 Al igual que en las resistencias, la tolerancia indica el margen de error entre la capacidad real del condensador y la que se indica en su carcasa. Por ejemplo, un condensador de 100 µF con una tolerancia del ± 10 % puede tener una capacidad real entre 90 µF y 110 µF.
       .col-lg-4.col-md-6.mb-3
         .tarjeta.tarj-hover.text-center.p-4.h-100
           img.mb-0(src='@/assets/curso/temas/t5/tarj3.png', alt='')

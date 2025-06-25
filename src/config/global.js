@@ -242,8 +242,6 @@ export default {
     {
       referencia:
         'Alexander, C. K. & Sadiku, M.N.O (2013). Fundamentos de circuitos eléctricos. (5 ed.)',
-      link:
-        'https://books.google.es/books?hl=es&lr=lang_es&id=g1pEDAAAQBAJ&oi=fnd&pg=PR11&dq=circuitos+el%C3%A9ctricos+en+serie&ots=bto4zFSjBq&sig=gid8gBTu5v6P8c7Ay9LkN6wSy88#v=onepage&q=circuitos%20el%C3%A9ctricos%20en%20serie&f=false',
     },
     {
       referencia:
@@ -270,15 +268,11 @@ export default {
     },
     {
       referencia:
-        'Henao Robledo, F. (2013). Riesgos eléctricos y mecánicos. (2 ed.). Recuperado de ',
-      link:
-        'https://books.google.es/books?hl=es&lr=lang_es&id=Ntk3DgAAQBAJ&oi=fnd&pg=PP1&dq=electricidad+est%C3%A1tica&ots=hIj78NsKs7&sig=uVMViu85ra-Mfk_eK5W2dNo-m2w#v=onepage&q=electricidad%20est%C3%A1tica&f=false',
+        'Henao Robledo, F. (2013). Riesgos eléctricos y mecánicos. (2 ed.). ',
     },
     {
       referencia:
-        'Hermosa Donate, A. (2003). Principios de electricidad y electrónica. (T III). Recuperado de ',
-      link:
-        'https://books.google.co.ve/books?id=pvtFKgwM11wC&printsec=frontcover#v=onepage&q&f=false',
+        'Hermosa Donate, A. (2003). Principios de electricidad y electrónica. (T III).',
     },
     {
       referencia: 'Martínez, R. (2012). Receptores eléctricos. Recuperado de ',
@@ -402,6 +396,11 @@ export default {
       autores: [
         {
           nombre: 'Laura Paola Gelvez Manosalva',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
+        },
+        {
+          nombre: 'Erika Daniela Manrique Rueda',
           cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
