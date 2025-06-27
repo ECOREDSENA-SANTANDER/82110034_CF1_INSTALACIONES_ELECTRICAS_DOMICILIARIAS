@@ -360,13 +360,13 @@ export default {
             'Regional Boyacá - Centro de Desarrollo Agropecuario y Agroindustrial',
         },
         {
-          nombre: 'Andrea Ardila Chaparro',
+          nombre: 'Sandra Paola Morales Páez',
           cargo: 'Evaluadora instruccional',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Sandra Paola Morales Páez',
-          cargo: 'Evaluadora instruccional',
+          nombre: 'Andrea Ardila Chaparro',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
