@@ -21,13 +21,13 @@
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-lg-2.col-md-3.col-4.mb-3
         .tarjeta.bg5.p-3.py-md-4.text-center
-          h3.mb-0.font-italic I = V/R
+          h3.mb-0 I = V/R
       .col-lg-2.col-md-3.col-4.mb-3
         .tarjeta.bg5.p-3.py-md-4.text-center
-          h3.mb-0.font-italic V = IR
+          h3.mb-0 V = IR
       .col-lg-2.col-md-3.col-4.mb-3
         .tarjeta.bg5.p-3.py-md-4.text-center
-          h3.mb-0.font-italic R = V/I
+          h3.mb-0 R = V/I
     
     p.text-center.mb-4 Donde:      
 
@@ -134,7 +134,7 @@
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-lg-10.mb-3
         .tarjeta.bg4.p-4.text-center
-          h5.mb-0 La suma de las caídas de voltaje en R1, R2 y R3 deben ser igual a 10 V, es decir, 10 V=V1+V2+V3.
+          h5.mb-0 La suma de las caídas de voltaje en R1, R2 y R3 deben ser igual a 10 V, es decir, 10 V = V1 + V2 + V3.
 
     .row.bgc-3.align-items-center.p-2.p-md-3.mb-4(data-aos="fade-down")
       .col-lg-12.col-12.px-lg-4
@@ -143,8 +143,8 @@
           .row.justify-content-center
             .col-lg-12
               .titulo-sexto.color-acento-contenido
-                h5 Figura 6.Suma de las caídas de voltaje
-                span 
+                h5 Figura 6. 
+                span Suma de las caídas de voltaje
             .col-lg-5.col-md-8
               figure.mb-2
                 img(src='@/assets/curso/temas/t3/fig6.svg', alt='La figura representa un circuito eléctrico con tres resistencias (R1, R2 y R3) conectadas a dos fuentes de voltaje de 15 V y 20 V. Se indican las corrientes I1, I2 e I3, así como el valor de 0.5 A en una de las ramas. El circuito permite analizar la aplicación de la Ley de Kirchhoff para voltajes, donde la suma de las caídas de tensión en cada malla es igual a la suma de las fuentes de voltaje en esa misma malla.')  
@@ -178,7 +178,7 @@
                   span.mb-0 Usando la ley de Kirchhoff de la corriente y ahora conociendo el I1 e I3, el I2 se encuentra como I3 = I1 + I2  por consiguiente el amperaje de I2 = 0.5 A.
                 li
                   i.fas.fa-circle-check
-                  span.mb-0 De nuevo, usando la ley de Kirchhoff del voltaje, la diferencia de potencial (DDP) para R3 puede calcularse como, 20 = I2 x R3 + 10. El voltaje por R3 (el I2 x R3 ) es entonces 10 voltios.
+                  span.mb-0 De nuevo, usando la ley de Kirchhoff del voltaje, la diferencia de potencial (DDP) para R3 puede calcularse como, 20 = I2 x R3 + 10. El voltaje por R3 (el I2 x R3) es entonces 10 voltios. 
                 li
                   i.fas.fa-circle-check
                   span.mb-0 El valor de R3 es:
@@ -213,14 +213,14 @@
           h5 entonces: W = V x I x t
           h5 Por la ley de Ohm sabemos que V = R x I
           h5 entonces: W = (R x I) x I x t
-          h5.mb-0 W = R x I ^2 x t
+          h5.mb-0 W = R × I² × t 
 
     p Donde Q es la cantidad de calor generado, I es la intensidad de la corriente, R es la resistencia del conductor y t es el tiempo que dura la corriente.
 
     p.mb-5 La fórmula anterior indica que el trabajo realizado por el campo eléctrico para mover las cargas eléctricas a lo largo de un conductor se transforma íntegramente en calor. Este trabajo depende de la intensidad de la corriente que circula por el conductor, la resistencia que ofrece este al paso de corriente y el tiempo durante el cual circula.
 
     .subt2.mb-4(data-aos="fade")
-      h3.mb-0.py-1.px-4 Ley de Watt - Potencia eléctrica
+      h3.mb-0.py-1.px-4 Ley de Watt - potencia eléctrica
 
     .tarjeta.bg5.p-4.mb-4
       p Es la cantidad de energía eléctrica o trabajo, que se transporta o que se consume en una determinada unidad de tiempo.

@@ -27,28 +27,28 @@
             ul.lista-ul--color.sec2.px-4.px-lg-5.py-3.mb-0
               li
                 i.fas.fa-circle-check
-                | Ohmios (Ω)
+                | Ohmios (Ω).
               li
                 i.fas.fa-circle-check
-                | Voltios (V)
+                | Voltios (V).
               li
                 i.fas.fa-circle-check
-                | Amperios (A)
+                | Amperios (A).
               li
                 i.fas.fa-circle-check
-                | Culombios (C)
+                | Culombios (C).
               li
                 i.fas.fa-circle-check
-                | Henrios (H)
+                | Henrios (H).
               li
                 i.fas.fa-circle-check
-                | Faradios (F)
+                | Faradios (F).
               li
                 i.fas.fa-circle-check
-                | Vatios (W)
+                | Vatios (W).
               li.mb-0
                 i.fas.fa-circle-check
-                | Julios (J)
+                | Julios (J).
       .col-lg-3.d-none.d-lg-block(data-aos="fade-left")
         img(src='@/assets/curso/temas/t2/3.jpg', alt='')
     

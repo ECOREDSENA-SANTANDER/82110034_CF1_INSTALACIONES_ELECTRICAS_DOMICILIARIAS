@@ -85,7 +85,7 @@
           h3.mb-0.text-white Resistencias eléctricas y su identificación
 
     .subt2.mb-4(data-aos="fade")
-      h3.mb-0.py-1.px-4 Resistencias eléctrica
+      h3.mb-0.py-1.px-4 Resistencias eléctricas
 
     p Una resistencia o resistor es un componente pasivo que se encarga de oponer el paso de la corriente eléctrica en un circuito. Esta oposición genera una diferencia de potencial (voltaje) entre sus terminales.
 
@@ -100,7 +100,7 @@
                 span Resistencia eléctrica
             .col-lg-8.col-md-8
               figure.mb-2
-                img(src='@/assets/curso/temas/t4/fig7.jpg', alt='La imagen presenta una resistencia, que es un componente diseñado para limitar el flujo de corriente eléctrica en un circuito. Tiene un cuerpo cilíndrico con bandas de colores que indican su valor resistivo.')  
+                img(src='@/assets/curso/temas/t4/fig7.jpg', alt='Presenta una resistencia, que es un componente diseñado para limitar el flujo de corriente eléctrica en un circuito. Tiene un cuerpo cilíndrico con bandas de colores que indican su valor resistivo.')  
 
 
     .subt2.mb-4(data-aos="fade")
@@ -127,7 +127,7 @@
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8.mb-3
         .tarjeta.bg4.p-4
-          h5.mb-0 Ejemplo. 
+          h5.mb-0 Ejemplo: 
           h5.mb-0 Si los colores son: marrón, negro, rojo, oro, su valor en ohmios (ver Ley de Ohm) es: 
           h5.mb-0 10 x 100 = 1000 = 1K.    
           h5.mb-0 Tolerancia de 5 %.
@@ -150,13 +150,13 @@
       .col-lg-6.mb-3.mb-lg-0(data-aos="fade-right")
         p En un circuito en serie donde las resistencias se colocan una seguida de la otra de tal modo que la corriente, deberá fluir primero por una de ellas para llegar a la siguiente, esto implica que el valor de la resistencia total del circuito sea la suma de todas ellas.  
         .tarjeta.bg5.p-4.text-center
-          h3.mb-0.font-italic Rt = R1+ R2 + R3
+          h3.mb-0 Rt = R1+ R2 + R3
       .col-lg-6.col-md-9.px-lg-5(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido
           h5 Figura 9.
           span Resistencia en serie
         figure.mb-2
-          img(src='@/assets/curso/temas/t4/fig9.svg', alt='La imagen presenta un circuito en serie compuesto por tres resistencias, R1, R2 y R3; la resistencia total (Rt) se calcula sumando las resistencias individuales, es decir, Rt = R1 + R2 + R3.')  
+          img(src='@/assets/curso/temas/t4/fig9.svg', alt='Presenta un circuito en serie compuesto por tres resistencias, R1, R2 y R3; la resistencia total (Rt) se calcula sumando las resistencias individuales, es decir, Rt = R1 + R2 + R3.')  
     
 
     .row.justify-content-between.align-items-center.mb-5
@@ -217,12 +217,12 @@
           img(src='@/assets/curso/temas/t4/3.png', alt='')
         .col-lg-7       
           .p-4
-            p.text-center.text-white Se puede iniciar por los circuitos más sencillos como resolver R 1-2, que representa la resistencia total entre R1 y R2, como están en paralelo.
+            p.text-center.text-white Se puede iniciar por los circuitos más sencillos como resolver R 1 - 2, que representa la resistencia total entre R1 y R2, como están en paralelo. 
             .tarjeta.bg5.p-4.text-center.text-dark.mb-4
-              h3.mb-0.font-italic 1 / R₁₋₂ = 1 / R₁ + 1 / R₂
+              h3.mb-0 1 / R₁₋₂ = 1 / R₁ + 1 / R₂ 
             p.text-center.text-white Combinando el resultado anterior con R3 y teniendo en cuenta que se trata de un circuito en serie.
             .tarjeta.bg5.p-4.text-center.text-dark.mb-4
-              h3.mb-0.font-italic R₁₋₂₋₃ = R₁₋₂ + R₃
+              h3.mb-0 R₁₋₂₋₃ = R₁₋₂ + R₃
             p.text-center.text-white El circuito va quedando más pequeño, como se expone a continuación:
 
 
@@ -234,13 +234,13 @@
               h5 Figura 12.
               span Resistencias en serie (R4 y R5)
             figure
-              img.px-lg-3(src='@/assets/curso/temas/t4/fig12.svg', alt='La imagen representa un circuito eléctrico en un esquema de conexión de componentes conectados en paralelo (R1-2-3 y R4-R5). La resistencia total del circuito (R-t) se calcula sumando las resistencias en serie y utilizando la fórmula clásica para resistencias en paralelo, lo que permite determinar el comportamiento eléctrico del circuito completo.')  
+              img.px-lg-3(src='@/assets/curso/temas/t4/fig12.svg', alt='Representa un circuito eléctrico en un esquema de conexión de componentes conectados en paralelo (R1-2-3 y R4-R5). La resistencia total del circuito (R-t) se calcula sumando las resistencias en serie y utilizando la fórmula clásica para resistencias en paralelo, lo que permite determinar el comportamiento eléctrico del circuito completo.')  
         .col-lg-4
           .bg10.h-100.p-4
             p.text-center Nuevamente se presenta un circuito en serie entre R4 y R5, entonces.
             .tarjeta.bg5.p-4.text-center.mb-4
-              h3.mb-0.font-italic R₄₋₅ = R₄ + R₅
-            p.text-center.mb-4 De tal modo que se suprime y se reemplaza por R 4-5.
+              h3.mb-0 R₄₋₅ = R₄ + R₅
+            p.text-center.mb-4 De tal modo que se suprime y se reemplaza por R 4 - 5.
         .col-lg-4.col-md-9
           .p-3
             .titulo-sexto.color-acento-contenido
@@ -252,9 +252,9 @@
     .row.justify-content-center.mb-5
       .col-lg-6(data-aos="fade-right")
         p Se evidencia que cada vez la malla del circuito se va reduciendo, sucede que es una forma sencilla de resolverlo por pasos, con la práctica no será necesario hacerlo ya que se podrá resolver mentalmente.        
-        p Ahora se resuelve el circuito en paralelo para obtener R 1…5.
+        p Ahora se resuelve el circuito en paralelo para obtener R₁₋₅. 
         .tarjeta.bg5.p-4.text-center.mb-4
-          h3.mb-0.font-italic 1 / R₁…₅ = 1 / R₁₋₂₋₃ + 1 / R₄₋₅
+          h3.mb-0 1 / R₁₋₅ = 1 / R₁₂₃ + 1 / R₄₅ 
         p Finalmente se obtiene el circuito más sencillo de todos y es un circuito en serie, el cual proporciona la resistencia total.
       .col-lg-4.col-md-10(data-aos="fade-left")
         .bg3.p-4.h-100
@@ -272,7 +272,7 @@
         .row.justify-content-center.mt-n1
           .col-lg-9.col-md-7.col-9
             .tarjeta.bg5.p-4.text-center
-              h3.mb-0.font-italic Rt = R₁…₅ + R₆
+              h3.mb-0 Rt = R₁₋₅ + R₆ 
 
 </template>
 

@@ -18,7 +18,7 @@
         p Es un principio fundamental en el análisis de circuitos eléctricos. Permite calcular el voltaje que cae sobre una o varias resistencias conectadas en serie, a partir del voltaje total aplicado al circuito.
         p Este método se aplica directamente cuando se trabaja con dos resistencias en serie. Si el circuito contiene más de dos resistencias, se debe aplicar el divisor de voltaje de forma progresiva, agrupando resistencias de dos en dos y resolviendo paso a paso hasta alcanzar la resistencia de interés.
         .tarjeta.bg4.p-4.px-lg-5
-          h5.mb-0 El divisor de voltaje es especialmente útil cuando no se dispone del valor de la corriente eléctrica en el circuito, pero sí se conocen los valores de las resistencias. En estos casos, no es posible aplicar directamente la Ley de Ohm, por lo que el divisor de tensión se convierte en una herramienta clave para determinar los voltajes parciales en cada componente.      
+          p.mb-0 El divisor de voltaje es especialmente útil cuando no se dispone del valor de la corriente eléctrica en el circuito, pero sí se conocen los valores de las resistencias. En estos casos, no es posible aplicar directamente la Ley de Ohm, por lo que el divisor de tensión se convierte en una herramienta clave para determinar los voltajes parciales en cada componente.      
 
     p.text-center.mb-4 A continuación, se presentan las fórmulas correspondientes junto con el esquema ilustrativo para su aplicación:
     
@@ -68,7 +68,7 @@
       .col-lg-6.mb-3.mb-lg-0(data-aos="fade-right")
         p Es un principio utilizado cuando se conectan dos o más resistencias en paralelo y se aplica un voltaje determinado. En este tipo de configuración, la corriente eléctrica se distribuye entre las ramas, de modo que una parte fluye a través de la resistencia 1 y otra parte a través de la resistencia 2, reuniéndose nuevamente al final del circuito.      
         .tarjeta.bg4.p-4.px-lg-5.mb-4
-          h5.mb-0 Para determinar cuánta corriente circula por cada resistencia, se aplica la fórmula del divisor de corriente, la cual permite calcular la proporción de corriente que fluye por cada rama, dependiendo de los valores de las resistencias involucradas.
+          p.mb-0 Para determinar cuánta corriente circula por cada resistencia, se aplica la fórmula del divisor de corriente, la cual permite calcular la proporción de corriente que fluye por cada rama, dependiendo de los valores de las resistencias involucradas.
         p.text-center Antes de aplicar esta fórmula, es necesario calcular la resistencia total equivalente, ya que, al estar en paralelo, se utiliza la siguiente expresión:
         .tarjeta.bg5.text-center.fw-bold.p-3
           div.formula-container
@@ -85,7 +85,7 @@
             h5 Figura 16.
             span Ejemplo divisor de corriente
           figure.mb-4.px-4
-            img(src='@/assets/curso/temas/t5/fig16.svg', alt='La imagen presenta un diagrama de un circuito eléctrico en serie y paralelo, donde la fuente de voltaje (V_T) alimenta múltiples ramas. Las corrientes (I_T), (I_1), y (I_2) fluyen a través de las resistencias (R_1) y (R_2), mostrando cómo la corriente se divide en diferentes trayectorias. Las flechas indican la dirección del flujo de corriente, lo que es crucial para el entendimiento de la polaridad y el funcionamiento del circuito.')  
+            img(src='@/assets/curso/temas/t5/fig16.svg', alt='Presenta un diagrama de un circuito eléctrico en serie y paralelo, donde la fuente de voltaje (V_T) alimenta múltiples ramas. Las corrientes (I_T), (I_1), y (I_2) fluyen a través de las resistencias (R_1) y (R_2), mostrando cómo la corriente se divide en diferentes trayectorias. Las flechas indican la dirección del flujo de corriente, lo que es crucial para el entendimiento de la polaridad y el funcionamiento del circuito.')  
           figcaption Fuente: Zambrano, (2019)
 
     .row.justify-content-center.align-items-center.mb-5
@@ -140,10 +140,23 @@
         .col-md-auto.col-10.ps-0
           h3.mb-0.text-white Condensadores e inductores
     
-    p.mb-4 Comprender el funcionamiento de los condensadores e inductores es fundamental en el estudio de los circuitos eléctricos, ya que ambos componentes desempeñan un papel clave en el almacenamiento y gestión de la energía eléctrica.
+    p.mb-5 Comprender el funcionamiento de los condensadores e inductores es fundamental en el estudio de los circuitos eléctricos, ya que ambos componentes desempeñan un papel clave en el almacenamiento y gestión de la energía eléctrica. 
 
     .subt2.mb-4
       h3.mb-0.py-1.px-4 Condensadores
+
+    p Un condensador es un dispositivo electrónico que almacena energía en forma de campo eléctrico. Está compuesto por dos placas metálicas paralelas (llamadas armaduras), habitualmente de aluminio, separadas por un material dieléctrico, que actúa como aislante. Su comportamiento y aplicación en los circuitos dependen de varias características clave: capacidad de un condensador representa la cantidad de carga eléctrica que puede almacenar por unidad de voltaje aplicado. Se mide en faradios (F). Como esta unidad es muy grande para la mayoría de las aplicaciones prácticas, se utilizan sus submúltiplos: 
+
+    ul.lista-ul--color.sec2.fa-lista.mb-0.ps-3.mb-4
+      li
+        i.fas.fa-circle-check
+        span.mb-0.fw-bold Microfaradios (µF) = 10⁻⁶ F 
+      li
+        i.fas.fa-circle-check
+        span.mb-0.fw-bold Nanofaradios (nF) = 10⁻⁹ F 
+      li
+        i.fas.fa-circle-check
+        span.mb-0.fw-bold Picofaradios (pF) = 10⁻¹² F  
 
     .row.bgc-3.align-items-center.p-2.p-md-3.mb-4(data-aos="fade-down")
       .col-lg-12.col-12.px-lg-4
@@ -158,7 +171,6 @@
               figure
                 img(src='@/assets/curso/temas/t5/fig17.png', alt='La figura presenta una variedad de condensadores de diferentes formas y tamaños, dispuestos sobre una superficie de madera. También se encuentran algunas resistencias electrónicas, lo que sugiere un conjunto de componentes utilizados en circuitos eléctricos o electrónicos.')  
 
-    p.mb-4 Un condensador es un componente electrónico que almacena energía en forma de campo eléctrico. Está formado por dos placas metálicas paralelas separadas por un material dieléctrico que actúa como aislante. Su capacidad, medida en faradios (F), indica la cantidad de carga que puede almacenar por unidad de voltaje. Dado que el faradio es una unidad muy grande, en la práctica se utilizan submúltiplos como el microfaradio (µF), nanofaradio (nF) y picofaradio (pF).
 
     .tarjeta.bg-grad2.p-3.mb-5(data-aos="fade-down")
       .row.justify-content-around.align-items-center

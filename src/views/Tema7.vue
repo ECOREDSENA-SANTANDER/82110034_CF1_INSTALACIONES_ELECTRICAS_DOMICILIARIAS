@@ -15,7 +15,7 @@
       span Red de distribución eléctrica
     div.mb-4(data-aos='fade-right')
       figure.mb-2
-        img(src='@/assets/curso/temas/t7/fig18.png', alt='La imagen ilustra el proceso de generación, transmisión, transformación, distribución y consumo de electricidad, comenzando desde una central eléctrica que produce energía a 22 kV y utilizando transformadores para elevar el voltaje hasta 220 kV para su transmisión a larga distancia; después, la electricidad se transforma nuevamente a 66 kV y posteriormente a 15 kV, facilitando su distribución en media y baja tensión, hasta alcanzar los usuarios finales que consumen la energía a niveles de 220/110 V.')  
+        img(src='@/assets/curso/temas/t7/fig18.png', alt='Ilustra el proceso de generación, transmisión, transformación, distribución y consumo de electricidad, comenzando desde una central eléctrica que produce energía a 22 kV y utilizando transformadores para elevar el voltaje hasta 220 kV para su transmisión a larga distancia; después, la electricidad se transforma nuevamente a 66 kV y posteriormente a 15 kV, facilitando su distribución en media y baja tensión, hasta alcanzar los usuarios finales que consumen la energía a niveles de 220/110 V.')  
       figcaption Fuente: Picco, (2014)  
 
     p.mb-0 Cada uno de estos subsistemas está compuesto por diversos elementos físicos e infraestructuras técnicas.
@@ -30,7 +30,7 @@
         .row.justify-content-center
           .col-11
             p La energía generada se transporta a largas distancias a través de la red de transmisión, que enlaza las centrales eléctricas con las áreas de consumo. Esta red debe estar interconectada mediante estructuras malladas que permiten el flujo de energía en múltiples direcciones, asegurando estabilidad y eficiencia en el sistema. Las líneas de transmisión operan a tensiones elevadas, generalmente superiores a 66.000 voltios, y son soportadas por torres metálicas de gran altura.
-      .py-3.py-md-4.py-lg-5.bg3(titulo="Transformación - Subestaciones")
+      .py-3.py-md-4.py-lg-5.bg3(titulo="Transformación - subestaciones")
         .row.justify-content-center
           .col-11
             p Las subestaciones eléctricas son instalaciones que transforman el nivel de tensión de la energía para facilitar su transporte y distribución. Existen dos tipos principales:

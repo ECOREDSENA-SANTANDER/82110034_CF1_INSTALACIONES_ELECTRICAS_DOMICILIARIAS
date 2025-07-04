@@ -253,7 +253,7 @@
           .tarjeta.bg4.p-4.px-lg-5.mb-4
             h5 Es decir, la suma de los voltajes en cada resistencia es igual al voltaje total suministrado por la fuente:
             h5.mb-0 V total = V1 + V2 + V3 + … + Vn
-          p.text-center Cada caída de voltaje en una resisteancia depende del valor de la resistencia y de la corriente, según la Ley de Ohm.
+          p.text-center Cada caída de voltaje en una resistencia depende del valor de la resistencia y de la corriente, según la Ley de Ohm.
           p.text-center La resistencia total de un circuito en serie se calcula sumando los valores individuales de cada resistencia:
           .row.justify-content-center.mb-4
             .col-lg-6.text-center
@@ -277,7 +277,7 @@
             h5 Figura 1.
             span Circuito en serie
           figure.mb-2
-            img(src='@/assets/curso/temas/t1/fig1.svg', alt='La imagen representa un circuito eléctrico sencillo que incluye dos resistencias en serie (R1 y R2) y una fuente de corriente.')  
+            img(src='@/assets/curso/temas/t1/fig1.svg', alt='Representa un circuito eléctrico sencillo que incluye dos resistencias en serie (R1 y R2) y una fuente de corriente.')  
           figcaption Fuente: Alexander & Sadiku, (2013)
       
 
@@ -333,7 +333,7 @@
                 p IT = Intensidad total, I1 = Intensidad 1, I2 = Intensidad 2, In = Intensidad n.
             .row.justify-content-center(titulo="Para resistencias")
               .col-md-10
-                p 1/RT = 1/R1 + 1/R2 + ⋯ 1/( RT)  
+                p 1/RT = 1/R1 + 1/R2 + ⋯ 1/(RT)  
                 p Donde RT = Resistencia total, R1 = Resistencia 1, R2 = Resistencia 2.
             .row.justify-content-center(titulo="Para condensadores")
               .col-md-10
