@@ -260,7 +260,7 @@
         .bg3.p-4.h-100
           .titulo-sexto.color-acento-contenido
             h5 Figura 14.
-            span Resistencia en serie (R1...5 y R6) 
+            span Resistencia en serie (R₁₋₅ y R6)
           figure
             img.w-50.m-auto(src='@/assets/curso/temas/t4/fig14.svg', alt='En el circuito representado,  las resistencias R1, R2, R3, R4 y R5 forman una resistencia equivalente R1-5 que esta conectada en serie a una resistencia R6 y que su resistencia total se denota como Rt.')  
 
