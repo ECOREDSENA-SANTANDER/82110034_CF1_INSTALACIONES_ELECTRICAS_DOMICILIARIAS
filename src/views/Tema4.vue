@@ -119,7 +119,7 @@
                 span Código de colores
             .col-lg-8
               figure.mb-2
-                img(src='@/assets/curso/temas/t4/fig8.svg', alt='La figura expone un código de colores asociado con valores numéricos y multiplicadores utilizados para identificar resistencias electrónicas: el marrón representa 1 y tiene un multiplicador de X10; el rojo es 2 con X100; el naranja es 3 con X1.000; el amarillo es 4 con X10.000; el verde es 5 con X100.000; el azul es 6 x 1.000.000; el violeta es 7; el gris es 8 con X0.1; y el blanco es 9 con X0.01. Además, se indican valores sin color, como el plateado (+/-1) y el dorado (+/-2), junto con sus márgenes de error.')  
+                img(src='@/assets/curso/temas/t4/fig8.svg', alt='Expone un código de colores asociado con valores numéricos y multiplicadores utilizados para identificar resistencias electrónicas: el marrón representa 1 y tiene un multiplicador de X10; el rojo es 2 con X100; el naranja es 3 con X1.000; el amarillo es 4 con X10.000; el verde es 5 con X100.000; el azul es 6 x 1.000.000; el violeta es 7; el gris es 8 con X0.1; y el blanco es 9 con X0.01. Además, se indican valores sin color, como el plateado (+/-1) y el dorado (+/-2), junto con sus márgenes de error.')  
               figcaption Fuente: Zambrano, (2019)
             .col-lg-4.d-none.d-lg-block
               img(src='@/assets/curso/temas/t4/2.png', alt='')
@@ -195,7 +195,7 @@
           h5 Figura 10.
           span Resistencia en paralelo
         figure.mb-2
-          img(src='@/assets/curso/temas/t4/fig10.svg', alt='La figura representa un arreglo de resistencias en paralelo, conformado por tres resistencias: R1, R2 y R3. Todas están conectadas entre los mismos dos puntos, lo que permite que la corriente se divida entre las tres ramas. La resistencia equivalente total del sistema se denota como Rt y es menor que el valor de la menor resistencia individual del conjunto.')  
+          img(src='@/assets/curso/temas/t4/fig10.svg', alt='Representa un arreglo de resistencias en paralelo, conformado por tres resistencias: R1, R2 y R3. Todas están conectadas entre los mismos dos puntos, lo que permite que la corriente se divida entre las tres ramas. La resistencia equivalente total del sistema se denota como Rt y es menor que el valor de la menor resistencia individual del conjunto.')  
                 
 
     .row.justify-content-between.mb-5
@@ -209,7 +209,7 @@
           h5 Figura 11.
           span Resistencia en circuito combinado
         figure.mb-2
-          img(src='@/assets/curso/temas/t4/fig11.svg', alt='La figura representa un circuito combinado que integra resistencias en paralelo y en serie. R1 y R2 están en paralelo, conectadas en serie con R3. Esta combinación se enlaza en paralelo con R4 y R5, y finalmente todo el conjunto está en serie con R6. La resistencia total equivalente del sistema se denota como Rt. Este tipo de configuración permite analizar la interacción entre diferentes arreglos de resistencias dentro de un mismo circuito.')  
+          img(src='@/assets/curso/temas/t4/fig11.svg', alt='Representa un circuito combinado que integra resistencias en paralelo y en serie. R1 y R2 están en paralelo, conectadas en serie con R3. Esta combinación se enlaza en paralelo con R4 y R5, y finalmente todo el conjunto está en serie con R6. La resistencia total equivalente del sistema se denota como Rt. Este tipo de configuración permite analizar la interacción entre diferentes arreglos de resistencias dentro de un mismo circuito.')  
 
     .tarjeta.bg11.mb-5(data-aos="fade")
       .row.justify-content-center

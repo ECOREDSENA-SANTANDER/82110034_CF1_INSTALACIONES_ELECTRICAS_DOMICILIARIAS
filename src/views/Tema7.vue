@@ -113,7 +113,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/t7/1.jpg')})`}")
       .bloque-texto-g__texto.p-4
         br
-        p Comprender los fundamentos de la electricidad es clave para el diseño y mantenimiento de instalaciones eléctricas domiciliarias seguras y eficientes. El dominio de conceptos como corriente, voltaje, resistencia, así como la aplicación de leyes fundamentales y el uso adecuado de elementos del circuito, permite aprendiz desarrollar habilidades prácticas esenciales; este conocimiento no solo fortalece la comprensión teórica, sino que también prepara para enfrentar los retos del entorno eléctrico residencial con criterio, seguridad y responsabilidad.
+        p Comprender los fundamentos de la electricidad es clave para el diseño y mantenimiento de instalaciones eléctricas domiciliarias seguras y eficientes. El dominio de conceptos como corriente, voltaje, resistencia, así como la aplicación de leyes fundamentales y el uso adecuado de elementos del circuito, permite al aprendiz desarrollar habilidades prácticas esenciales; este conocimiento no solo fortalece la comprensión teórica, sino que también prepara para enfrentar los retos del entorno eléctrico residencial con criterio, seguridad y responsabilidad.
         br
         br
 

@@ -303,7 +303,7 @@
                   span Circuito en paralelo
               .col-lg-4.col-md-5
                 figure.mb-2
-                  img(src='@/assets/curso/temas/t1/fig2.svg', alt='La figura representa un circuito paralelo compuesto por dos resistencias, R1 y R2, conectadas entre dos nodos comunes. La fuente de alimentación tiene un voltaje de 12V entre los puntos A y el terminal de referencia (0V). La corriente total se divide en dos ramas: I1 atraviesa R1 e I2 atraviesa R2, cumpliendo la Ley de nodos de Kirchhoff, donde la corriente que entra al nodo A es igual a la suma de las corrientes que salen por cada rama.')  
+                  img(src='@/assets/curso/temas/t1/fig2.svg', alt='Representa un circuito paralelo compuesto por dos resistencias, R1 y R2, conectadas entre dos nodos comunes. La fuente de alimentación tiene un voltaje de 12V entre los puntos A y el terminal de referencia (0V). La corriente total se divide en dos ramas: I1 atraviesa R1 e I2 atraviesa R2, cumpliendo la Ley de nodos de Kirchhoff, donde la corriente que entra al nodo A es igual a la suma de las corrientes que salen por cada rama.')  
                 figcaption Fuente: Alexander & Sadiku, (2013)
 
       p.text-center En los circuitos en paralelo:
@@ -399,7 +399,7 @@
                   span Circuito mixto
               .col-lg-6.col-md-8
                 figure.mb-2
-                  img(src='@/assets/curso/temas/t1/fig3.svg', alt='La figura representa un circuito mixto compuesto por una combinación de resistencias en serie y en paralelo. La fuente de voltaje V alimenta el sistema. Las resistencias R1 y R5 están conectadas en serie; a partir de allí, la corriente se divide en varias ramas: una con R2 y R3 en paralelo, otra con R4, y otra que continúa el trayecto de la corriente total. Las corrientes I1, I2, I3, I4 e I5 indican el flujo a través de diferentes secciones del circuito. Este tipo de configuración permite analizar el comportamiento combinado de las leyes de Kirchhoff en serie y paralelo.')  
+                  img(src='@/assets/curso/temas/t1/fig3.svg', alt='Representa un circuito mixto compuesto por una combinación de resistencias en serie y en paralelo. La fuente de voltaje V alimenta el sistema. Las resistencias R1 y R5 están conectadas en serie; a partir de allí, la corriente se divide en varias ramas: una con R2 y R3 en paralelo, otra con R4, y otra que continúa el trayecto de la corriente total. Las corrientes I1, I2, I3, I4 e I5 indican el flujo a través de diferentes secciones del circuito. Este tipo de configuración permite analizar el comportamiento combinado de las leyes de Kirchhoff en serie y paralelo.')  
                 figcaption Fuente: Alexander & Sadiku, (2013)
 
 

@@ -169,7 +169,7 @@
                 span Condensadores
             .col-lg-6.col-md-8
               figure
-                img(src='@/assets/curso/temas/t5/fig17.png', alt='La figura presenta una variedad de condensadores de diferentes formas y tamaños, dispuestos sobre una superficie de madera. También se encuentran algunas resistencias electrónicas, lo que sugiere un conjunto de componentes utilizados en circuitos eléctricos o electrónicos.')  
+                img(src='@/assets/curso/temas/t5/fig17.png', alt='Presenta una variedad de condensadores de diferentes formas y tamaños, dispuestos sobre una superficie de madera. También se encuentran algunas resistencias electrónicas, lo que sugiere un conjunto de componentes utilizados en circuitos eléctricos o electrónicos.')  
 
 
     .tarjeta.bg-grad2.p-3.mb-5(data-aos="fade-down")

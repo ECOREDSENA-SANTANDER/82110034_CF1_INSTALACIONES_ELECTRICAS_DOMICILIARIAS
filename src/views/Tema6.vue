@@ -54,7 +54,7 @@
                   .col-md-6.mb-3.mb-md-0
                     img(src='@/assets/curso/temas/t6/acord5.png', alt='')
                   .col-md-6.pe-lg-5
-                    p Las centrales geo termoeléctricas funcionan de manera similar a las termoeléctricas, pero la fuente de calor proviene del interior de la Tierra; se extrae una mezcla de agua y vapor desde el subsuelo a través de pozos geotérmicos. Esta mezcla se separa en un equipo especializado para obtener vapor seco, que luego se dirige a una turbina. Al igual que en otros sistemas, el vapor hace girar la turbina, generando electricidad mediante un generador.
+                    p Las centrales geotermoeléctricas funcionan de manera similar a las termoeléctricas, pero la fuente de calor proviene del interior de la Tierra; se extrae una mezcla de agua y vapor desde el subsuelo a través de pozos geotérmicos. Esta mezcla se separa en un equipo especializado para obtener vapor seco, que luego se dirige a una turbina. Al igual que en otros sistemas, el vapor hace girar la turbina, generando electricidad mediante un generador.
                 .row(titulo="Energía de la biomasa")
                   .col-md-6.mb-3.mb-md-0
                     img(src='@/assets/curso/temas/t6/acord6.png', alt='')

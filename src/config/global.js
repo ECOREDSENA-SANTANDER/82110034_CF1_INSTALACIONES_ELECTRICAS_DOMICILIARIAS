@@ -250,9 +250,7 @@ export default {
     },
     {
       referencia:
-        'Escuelapedia. (2014). Descubrimiento de la primera partícula subatómica: el electrón. Recuperado de ',
-      link:
-        'https://escuelapedia.com/descubrimiento-de-la-primera-particula-subatomica-el-electron/',
+        'Escuelapedia. (2014). Descubrimiento de la primera partícula subatómica: el electrón. ',
     },
     {
       referencia:

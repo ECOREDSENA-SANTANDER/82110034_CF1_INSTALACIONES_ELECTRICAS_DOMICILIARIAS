@@ -107,7 +107,7 @@
                 span Suma corrientes 
             .col-lg-5.col-md-8
               figure.mb-2
-                img(src='@/assets/curso/temas/t3/fig4.svg', alt='La figura representa un circuito resistivo con un nodo central donde convergen tres corrientes: I1, I2 e I3. Cada rama contiene una resistencia de 1k. El diagrama ilustra la aplicación de la Ley de Kirchhoff para corrientes, indicando que la suma de las corrientes que entran al nodo es igual a la suma de las que salen.')  
+                img(src='@/assets/curso/temas/t3/fig4.svg', alt='Representa un circuito resistivo con un nodo central donde convergen tres corrientes: I1, I2 e I3. Cada rama contiene una resistencia de 1k. El diagrama ilustra la aplicación de la Ley de Kirchhoff para corrientes, indicando que la suma de las corrientes que entran al nodo es igual a la suma de las que salen.')  
               figcaption Fuente: Polverini, (2022)
 
     p Las flechas representan la dirección del flujo de la corriente en el nodo. I1 entra a la unión, considerando que I2 e I3 salen. Si I1 fuera 20 A e I3 fuera 5 A, I2 tendría 15 A, según la ley de corrientes de I1 = I2 + I3.
@@ -128,7 +128,7 @@
                 span Suma de corrientes en circuito cerrado
             .col-lg-4.col-md-8
               figure.mb-2
-                img(src='@/assets/curso/temas/t3/fig5.svg', alt='La figura representa un circuito cerrado con una fuente de voltaje de 10V y tres resistencias conectadas en serie: R1, R2 y R3. A cada resistencia le corresponde una caída de tensión identificada como V1, V2 y V3, respectivamente. El esquema ilustra el principio de la Ley de corrientes de Kirchhoff, donde la suma de las caídas de tensión en las resistencias es igual al voltaje total suministrado por la fuente. ')  
+                img(src='@/assets/curso/temas/t3/fig5.svg', alt='Representa un circuito cerrado con una fuente de voltaje de 10V y tres resistencias conectadas en serie: R1, R2 y R3. A cada resistencia le corresponde una caída de tensión identificada como V1, V2 y V3, respectivamente. El esquema ilustra el principio de la Ley de corrientes de Kirchhoff, donde la suma de las caídas de tensión en las resistencias es igual al voltaje total suministrado por la fuente. ')  
               figcaption Fuente: Polverini, (2022)
 
     .row.justify-content-center.mb-4(data-aos="fade-down")
@@ -147,7 +147,7 @@
                 span Suma de las caídas de voltaje
             .col-lg-5.col-md-8
               figure.mb-2
-                img(src='@/assets/curso/temas/t3/fig6.svg', alt='La figura representa un circuito eléctrico con tres resistencias (R1, R2 y R3) conectadas a dos fuentes de voltaje de 15 V y 20 V. Se indican las corrientes I1, I2 e I3, así como el valor de 0.5 A en una de las ramas. El circuito permite analizar la aplicación de la Ley de Kirchhoff para voltajes, donde la suma de las caídas de tensión en cada malla es igual a la suma de las fuentes de voltaje en esa misma malla.')  
+                img(src='@/assets/curso/temas/t3/fig6.svg', alt='Representa un circuito eléctrico con tres resistencias (R1, R2 y R3) conectadas a dos fuentes de voltaje de 15 V y 20 V. Se indican las corrientes I1, I2 e I3, así como el valor de 0.5 A en una de las ramas. El circuito permite analizar la aplicación de la Ley de Kirchhoff para voltajes, donde la suma de las caídas de tensión en cada malla es igual a la suma de las fuentes de voltaje en esa misma malla.')  
               figcaption Fuente: Polverini, (2022)
 
     p Las corrientes de I2 e I3 y la resistencia desconocida R3 centran todos los cálculos, usando la teoría básica de la corriente continua. La dirección del flujo de la corriente está indicada por las flechas.
