@@ -210,7 +210,7 @@ export default {
     {
       termino: 'Ley de Joule',
       significado:
-        'Determina la cantidad de calor que es capaz de entregar una resistencia, esta cantidad de calor dependerá de la intensidad de corriente que por ella circule de la cantidad de tiempo que esté conectada. ',
+        'Determina la cantidad de calor que una resistencia es capaz de entregar, la cual depende de la intensidad de corriente que la atraviesa y del tiempo durante el cual permanece conectada. ',
     },
     {
       termino: 'Ley de Ohm',
@@ -251,6 +251,8 @@ export default {
     {
       referencia:
         'Escuelapedia. (2014). Descubrimiento de la primera partícula subatómica: el electrón. ',
+      link:
+        'https://escuelapedia.com/descubrimiento-de-la-primera-particula-subatomica-el-electron/',
     },
     {
       referencia:

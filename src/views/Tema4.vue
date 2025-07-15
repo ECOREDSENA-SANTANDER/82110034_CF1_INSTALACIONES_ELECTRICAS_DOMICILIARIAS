@@ -65,13 +65,13 @@
           ul.lista-ul--color.sec2.fa-lista.mb-0
             li
               i.fas.fa-circle-check
-              span.mb-0 Pulsador: Abre o cierra el circuito solo mientras está presionado.
+              span.mb-0 Pulsador: abre o cierra el circuito solo mientras está presionado.
             li
               i.fas.fa-circle-check
-              span.mb-0 Interruptor: Abre o cierra el circuito de forma permanente hasta que se accione nuevamente.
+              span.mb-0 Interruptor: abre o cierra el circuito de forma permanente hasta que se accione nuevamente.
             li
               i.fas.fa-circle-check
-              span.mb-0 Conmutador: Permite controlar el encendido o apagado del circuito desde diferentes puntos. Un tipo especial es el conmutador de cruce, que invierte la polaridad del circuito, comúnmente usado para cambiar el sentido de giro de los motores.
+              span.mb-0 Conmutador: permite controlar el encendido o apagado del circuito desde diferentes puntos. Un tipo especial es el conmutador de cruce, que invierte la polaridad del circuito, comúnmente usado para cambiar el sentido de giro de los motores.
       .row(titulo="Elementos pasivos")
         .col-12
           p Son aquellos componentes que no generan energía, sino que la absorben o consumen cuando la corriente circula por ellos. Estos elementos provocan una caída de tensión entre sus extremos y disipan energía, generalmente en forma de calor. Ejemplos típicos de elementos pasivos son las resistencias, bobinas y condensadores.
@@ -251,7 +251,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-6(data-aos="fade-right")
-        p Se evidencia que cada vez la malla del circuito se va reduciendo, sucede que es una forma sencilla de resolverlo por pasos, con la práctica no será necesario hacerlo ya que se podrá resolver mentalmente.        
+        p Se evidencia que cada vez la malla del circuito se va reduciendo, sucede que es una forma sencilla de resolverlo por pasos, con la práctica no será necesario hacerlo, ya que, se podrá resolver mentalmente.
         p Ahora se resuelve el circuito en paralelo para obtener R₁₋₅. 
         .tarjeta.bg5.p-4.text-center.mb-4
           h3.mb-0 1 / R₁₋₅ = 1 / R₁₂₃ + 1 / R₄₅ 

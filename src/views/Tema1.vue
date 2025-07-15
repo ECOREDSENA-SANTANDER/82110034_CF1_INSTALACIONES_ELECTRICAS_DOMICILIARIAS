@@ -23,14 +23,14 @@
               .col.mb-3.mb-sm-0
                 p.mb-0.pe-lg-3 Conceptos y leyes fundamentales de la electricidad
               .col-sm-auto
-                a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Conceptos_y_leyes_de_la_electricidad.pdf')" target="_blank")
+                a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_1_Conceptos_y_leyes_de_la_electricidad.pdf')" target="_blank")
                   span Descargar
                   i.fas.fa-file-download
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
                 p.mb-0.pe-lg-3 Las transformaciones de la energía
               .col-sm-auto
-                a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Las_transformaciones_de_la_energia.pdf')" target="_blank")
+                a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_2_Las_transformaciones_de_la_energia.pdf')" target="_blank")
                   span Descargar
                   i.fas.fa-file-download
 
@@ -100,35 +100,35 @@
                   .col.mb-3.mb-sm-0
                     p.mb-0.pe-lg-3 Electrotecnia
                   .col-sm-auto
-                    a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Electrotecnia.pdf')" target="_blank")
+                    a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_3_Electrotecnia.pdf')" target="_blank")
                       span Descargar
                       i.fas.fa-file-download
                 .row.justify-content-between.align-items-center.mb-3
                   .col.mb-3.mb-sm-0
                     p.mb-0.pe-lg-3 Electrotecnia General
                   .col-sm-auto
-                    a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Electrotrecnia_General.pdf')" target="_blank")
+                    a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_4_Electrotrecnia_General.pdf')" target="_blank")
                       span Descargar
                       i.fas.fa-file-download
                 .row.justify-content-between.align-items-center.mb-3
                   .col.mb-3.mb-sm-0
                     p.mb-0.pe-lg-3 Fundamentos de circuitos eléctricos
                   .col-sm-auto
-                    a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Fundamentos_de_circuito_electricos.pdf')" target="_blank")
+                    a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_5_Fundamentos_de_circuito_electricos.pdf')" target="_blank")
                       span Descargar
                       i.fas.fa-file-download
                 .row.justify-content-between.align-items-center.mb-3
                   .col.mb-3.mb-sm-0
                     p.mb-0.pe-lg-3 Eficiencia energética en transformadores eléctricos
                   .col-sm-auto
-                    a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Eficiencia_energetica_en_transformadores_electricos.pdf')" target="_blank")
+                    a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_6_Eficiencia_energetica_en_transformadores_electricos.pdf')" target="_blank")
                       span Descargar
                       i.fas.fa-file-download
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
                     p.mb-0.pe-lg-3 Oferta y demanda de energía: tendencias y perspectivas
                   .col-sm-auto
-                    a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Oferta_y_demanda_de_energia.pdf')" target="_blank")
+                    a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_7_Oferta_y_demanda_de_energia.pdf')" target="_blank")
                       span Descargar
                       i.fas.fa-file-download
 
@@ -146,7 +146,7 @@
         .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
           .subt2.mb-4
             h3.mb-0.py-1.px-4 Transformación de la energía
-          p De acuerdo con el principio físico de conservación de la energía: “La energía no se crea ni se destruye, solo se transforma”.
+          p De acuerdo con el principio físico de conservación de la energía: “La energía no se crea ni se destruye, solo se transforma” (Serway & Jewett, 2020).
           p La energía eléctrica puede convertirse en:
           ul.lista-ul--color.sec2.fa-lista.mb-0
             li
@@ -233,7 +233,7 @@
       .subt2.mb-4(data-aos="fade")
         h3.mb-0.py-1.px-4 Ramas de la electricidad 
 
-      p.mb-5 La electricidad se divide en dos ramas circuito serie y circuito paralelo, por tal razón ampliaremos cada una:
+      p.mb-5 La electricidad se divide en dos ramas, circuito serie y circuito paralelo, por tal razón ampliaremos cada una:
 
       h4.mb-4(data-aos="fade") Circuito en serie
 
@@ -306,7 +306,7 @@
                   img(src='@/assets/curso/temas/t1/fig2.svg', alt='Representa un circuito paralelo compuesto por dos resistencias, R1 y R2, conectadas entre dos nodos comunes. La fuente de alimentación tiene un voltaje de 12V entre los puntos A y el terminal de referencia (0V). La corriente total se divide en dos ramas: I1 atraviesa R1 e I2 atraviesa R2, cumpliendo la Ley de nodos de Kirchhoff, donde la corriente que entra al nodo A es igual a la suma de las corrientes que salen por cada rama.')  
                 figcaption Fuente: Alexander & Sadiku, (2013)
 
-      p.text-center En los circuitos en paralelo:
+      h5.text-center En los circuitos en paralelo:
 
       .row.justify-content-center.mb-5(data-aos="fade-down")
         .col-lg-4.col-md-6.mb-3
@@ -333,8 +333,9 @@
                 p IT = Intensidad total, I1 = Intensidad 1, I2 = Intensidad 2, In = Intensidad n.
             .row.justify-content-center(titulo="Para resistencias")
               .col-md-10
-                p 1/RT = 1/R1 + 1/R2 + ⋯ 1/(RT)  
-                p Donde RT = Resistencia total, R1 = Resistencia 1, R2 = Resistencia 2.
+                p 1/RT = 1/R1 + 1/R2 + ⋯ 1/(Rn)  
+                p.mb-0 Donde RT = Resistencia total, R1 = Resistencia 1, R2 = Resistencia 2.
+                p Rn representa la última resistencia en el circuito. 
             .row.justify-content-center(titulo="Para condensadores")
               .col-md-10
                 p CT = C1 + C2 + ⋯ + Cn
@@ -351,7 +352,7 @@
       .row.justify-content-center.mb-5(data-aos='fade-down')
         .col-lg-9
           .tabla-a.color-acento-contenido
-            table
+            table(alt="Presenta una tabla de verdad correspondiente al funcionamiento de dos interruptores en una conexión lógica OR. La salida es abierta únicamente cuando ambos interruptores están en estado abierto. En cualquier otro caso, la salida permanece cerrada. ")
               caption Referencia Tabla - Alexander & Sadiku, (2013)
               thead.text-white
                 tr.bg-color-acento-contenido
@@ -386,7 +387,7 @@
           .col-md-auto.col-9.ps-0
             h3.mb-0.text-white Circuito mixto
 
-      p Es aquel que combina elementos conectados tanto en serie como en paralelo. Para resolver problemas asociados a este tipo de circuitos, se recomienda simplificar las conexiones paso a paso, sumado a esto cuando se identifican dos elementos conectados en paralelo y dispuestos consecutivamente, pueden ser reemplazados por un equivalente en serie. Esta estrategia permite una solución más sencilla y ordenada del circuito (Hermosa Donate, 2003).
+      p Es aquel que combina elementos conectados tanto en serie como en paralelo. Para resolver problemas asociados a este tipo de circuitos, se recomienda simplificar las conexiones paso a paso. Una estrategia útil consiste en identificar pares de elementos conectados en paralelo y dispuestos de forma consecutiva, los cuales pueden ser reemplazados por su equivalente en serie. Este procedimiento facilita una solución más ordenada y eficiente del circuito (Hermosa Donate, 2003).
 
       .row.bgc-3.align-items-center.p-2.p-md-3.mb-5(data-aos="fade-down")
         .col-lg-12.col-12.px-lg-4

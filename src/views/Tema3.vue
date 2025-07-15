@@ -56,7 +56,7 @@
     p.mb-5 Formuladas por Gustav Robert Kirchhoff (1824–1887), estas leyes son fundamentales para el análisis de circuitos eléctricos, ya que permiten resolver circuitos con múltiples mallas y nodos.
 
     .subt2.mb-4(data-aos="fade")
-      h3.mb-0.py-1.px-4 a) Ley de corrientes de Kirchhoff (LCK) o Ley de nodos
+      h3.mb-0.py-1.px-4 a) Ley de Corrientes de Kirchhoff (LCK) o Ley de nodos
 
     .row.justify-content-center.mb-5
       .col-lg-5.col-md-6.mb-3.mb-lg-0(data-aos="fade-right")
@@ -69,7 +69,7 @@
 
     
     .subt2.mb-4(data-aos="fade")
-      h3.mb-0.py-1.px-4 b) Ley de voltajes de Kirchhoff (LVK) o Ley de mallas
+      h3.mb-0.py-1.px-4 b) Ley de Voltajes de Kirchhoff (LVK) o Ley de mallas
 
     p Afirma que, en cualquier malla cerrada de un circuito, la suma algebraica de todas las tensiones (subidas y caídas de potencial) es igual a cero. Esto se debe al principio de conservación de la energía eléctrica.
 

@@ -95,7 +95,7 @@
       .col-lg-6(data-aos="fade-right")
         .subt2.mb-4
           h3.mb-0.py-1.px-4 La corriente alterna
-        p Se diferencia de la directa en que cambia su sentido de circulación periódicamente y, por tanto, su polaridad. Esto ocurre tantas veces como frecuencia en hercios (Hz) tenga esa corriente. A la corriente directa (DC), también se le llama “corriente continua”.
+        p Se diferencia de la directa en que cambia su sentido de circulación periódicamente y, por tanto, su polaridad. Esto ocurre tantas veces como frecuencia en hercios (Hz) tenga esa corriente.
         .tarjeta.bg4.p-4.px-lg-5
           h5 Frecuencia (Hz) es el número de veces que se repite un ciclo en un segundo.
           h5.mb-0 Se mide en hercios (Hz), y 1 Hz equivale a 1 ciclo por segundo.

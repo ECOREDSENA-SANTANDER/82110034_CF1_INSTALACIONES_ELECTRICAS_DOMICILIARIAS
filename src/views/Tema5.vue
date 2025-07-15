@@ -52,7 +52,7 @@
                 span.equals = 
                 .fraction
                   .numerator
-                    span.r R2
+                    span.r R1
                   .denominator 
                     span.r R1  + R2
                 span.v V  
@@ -76,7 +76,7 @@
             span.equals = 
             .fraction
               .numerator
-                span.r R2 x R2
+                span.r R1 x R2
               .denominator 
                 span.r R1  + R2            
       .col-lg-6.col-md-9(data-aos="fade-left")
@@ -182,7 +182,7 @@
               h4.texto-blanco.mb-1 Condensadores eléctricos
               p.t-color-sec.mb-0.pe-lg-3 Para ampliar esta información descargue el siguiente anexo donde encontrará información clave sobre condensadores eléctricos.
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Condensadores_electricos.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_8_Condensadores_electricos.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 
