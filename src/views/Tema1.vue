@@ -233,7 +233,7 @@
       .subt2.mb-4(data-aos="fade")
         h3.mb-0.py-1.px-4 Ramas de la electricidad 
 
-      p.mb-5 La electricidad se divide en dos ramas, circuito serie y circuito paralelo, por tal razón ampliaremos cada una:
+      p.mb-5 La electricidad se divide en dos ramas: circuito serie y circuito paralelo, por tal razón ampliaremos cada una:
 
       h4.mb-4(data-aos="fade") Circuito en serie
 
